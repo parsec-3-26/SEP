@@ -1,0 +1,1142 @@
+﻿<%@ Master Language="VB" CodeFile="MainPage.master.vb" Inherits="MainPage" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <title></title>
+
+    <%--<script type="text/JavaScript">window.resizeTo(1280, 1024);</script>--%>
+
+    <meta http-equiv ="Page-Enter" content ="blendTrans(Duration=0)"/>
+    <meta http-equiv="Page-Exit"content="blendTrans(Duration=0)"/> 
+
+
+
+
+    <link type="text/css" href="Styles/Styles.css" rel="stylesheet" />
+     <link type="text/css" href="Styles/Theme.css" rel="stylesheet" />
+     <script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    
+     
+
+   <%-- <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>--%>
+    <link href="Styles/sep.css"   rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        .rgAltRow, .rgRow
+        {
+            cursor: pointer !important;
+        }
+        .style1
+        {
+            height: 25px;
+        }
+        
+        
+      div.RadGrid .rgFilterRow td  
+       {
+             padding: 3px;
+        }
+        
+        
+    </style>
+
+    <style type="text/css">
+        *html .rfdRadioUnchecked, *html .rfdRadioUnchecked:hover
+        {
+            background-position: 1px 0 !important;
+        }
+        
+        *html .rfdRadioChecked, *html .rfdRadioChecked:hover
+        {
+            background-position: 1px -440px !important;
+        }
+        
+        *html .rfdCheckboxUnchecked, *html .rfdCheckboxUnchecked:hover
+        {
+            background-position: 0 0 !important;
+        }
+        
+        *html .rfdCheckboxChecked, *html .rfdCheckboxChecked:hover
+        {
+            background-position: 1px -420px !important;
+        }
+        
+       /*  FIX PER I CONTROLLI CHECKBOX E RADIOBUTTON CON CHROME QUANDO VIENE APPLICATO LO SKIN DELLA TELERIK */
+       
+        input[type="checkbox"] {
+          -webkit-appearance: none;
+        }
+ 
+ 
+        
+         input[type="radio"] 
+         {
+           -webkit-appearance: none;
+         }
+         
+        
+          
+         /*  FIX (ALTEZZA) PER I CONTROLLI RADTEXTBOX CON FIREFOX   */
+        html body .RadInput .riTextBox,
+        html body .RadInputMgr 
+        {
+            border-width:1px;
+            border-style:solid;
+            padding:1px 1px 1px !important;
+        }
+        
+        
+    </style>
+
+
+    
+
+
+    <script type="text/javascript" language="javascript">
+
+
+
+       
+
+        // window.onunload = function () {
+        //}
+
+      var isOpen = "true";
+      var COOKIE_NAME = "STATO";
+
+
+     
+
+
+
+
+
+      function addEvent(obj, evType, fn) {
+          if (obj.addEventListener) {
+              obj.addEventListener(evType, fn, false);
+              return true;
+          } else if (obj.attachEvent) {
+              var r = obj.attachEvent("on" + evType, fn);
+              return r;
+          } else {
+              return false;
+          }
+      }
+
+
+      function SetDirty(el) {
+          document.getElementById('StatoPaginaHidden').value = 'C';
+      }
+
+
+      function ResetDirty(el) {
+          document.getElementById('StatoPaginaHidden').value = '';
+      }
+
+
+
+
+      //**********************************************************
+      //QUESTA FUNZIONE DEVE ESSERE CHIAMATA IN PAGELOAD DELLA PAGINA CONTENUTO
+      //**********************************************************
+      function OnChangeHandler() {
+          if (!document.getElementsByTagName) return;
+          var inputs, selects, textareas, i;
+
+          inputs = document.getElementsByTagName('input');
+          for (i = 0; i < inputs.length; i++) {
+
+              var dummy = (/dummy/).test(inputs[i].getAttribute("dummy"));
+              var submit = (/submit/).test(inputs[i].getAttribute("type"));
+              var hidden = (/hidden/).test(inputs[i].getAttribute("type"));
+
+              var pagerInput = (/rcbInput/).test(inputs[i].className);
+
+              if ((dummy == false) && (submit == false) && (hidden == false) && (pagerInput == false))
+              {
+                 inputs[i].onchange = function () { SetDirty(this); };
+              }
+          }
+
+          textareas = document.getElementsByTagName('textarea');
+          for (i = 0; i < textareas.length; i++) {
+              textareas[i].onchange = function () { SetDirty(this) };
+          }
+
+
+          selects = document.getElementsByTagName('select');
+          for (i = 0; i < selects.length; i++) {
+              var dummySelect = (/dummy/).test(selects[i].getAttribute("dummy"));
+              if (dummySelect == false) { 
+                 selects[i].onchange = function () { SetDirty(this) };
+              }
+            
+          }
+      }
+
+      //addEvent(window, 'load', OnChangeHandler);
+
+
+
+
+
+      function HideConfirm() {
+          var c = document.getElementById("confirm");
+          c.style.visibility = "hidden";
+      }
+
+
+      function showHideConfirm() {
+          var e = document.getElementById("confirmOverlay");
+          var c = document.getElementById("confirm");
+          if (e.style.visibility != "hidden") {
+              e.style.visibility = "hidden";
+              c.style.visibility = "hidden";
+          }
+          else {
+              c.style.visibility = "visible";
+              e.style.visibility = "visible";
+              e.style.position = 'absolute';
+              e.style.left = '0px';
+              e.style.top = '0px';
+              e.style.width = '100%';
+              e.style.height = '100%';
+              e.style.zIndex = 10000;
+              e.style.backgroundColor = '#09718F';
+              e.style.filter = "alpha(opacity=20)";
+              e.style.opacity = "0.2";
+          }
+      }
+
+      //**********************************************************
+      // GESTIONE MENU NAVIGAZIONE
+      //**********************************************************
+      function OnClientItemClicking(sender, eventArgs) {
+          var item = eventArgs.get_item();
+          var stato = document.getElementById('StatoPaginaHidden').value;
+          if (stato == 'C') {
+              showHideConfirm();
+              eleClicked = item.get_linkElement();
+              eventArgs.set_cancel(true)
+              blockUI = true;
+              commandType = 'MenuItem';
+          }
+      }
+
+      var eleClicked = '';
+      var blockUI = true;
+      var masterTable = null;
+      var commandName = '';
+      var commandArgument = '';
+      var commandType = 'Button';
+
+      //**********************************************************
+      // GESTIONE TOOLBAR PAGINA
+      //**********************************************************
+      function OnClientButtonClicking(sender, eventArgs) {
+          var button = eventArgs.get_item();
+          var commandName = button.get_commandName();
+          if ((commandName == "Nuovo") || (commandName == "Annulla") || (commandName == "CreteGU5")) {
+              var stato = document.getElementById('StatoPaginaHidden').value;
+              if (stato == 'C') {
+                  showHideConfirm();
+                  eleClicked = button;
+                  blockUI = false;
+                  commandType = 'ButtonItem';
+                  eventArgs.set_cancel(true)
+              }
+          }
+      }
+
+      //**********************************************************
+      // GESTIONE SELEZIONE GRIGLIA
+      //**********************************************************
+      function RowSelecting(sender, eventArgs) {
+          var stato = document.getElementById('StatoPaginaHidden').value;
+          if (stato == 'C') {
+              var grid = sender;
+              masterTable = grid.get_masterTableView();
+              blockUI = false;
+              showHideConfirm();
+              commandName = eventArgs.get_commandName();
+              commandArgument = eventArgs.get_commandArgument();
+              commandType = 'GridItem';
+              eventArgs.set_cancel(true);
+          }
+      }
+
+      //**********************************************************
+      // GESTIONE TOOLBAR MODULI 
+      //**********************************************************
+      function OnToolBarModuliClick(sender, eventArgs) {
+          var stato = document.getElementById('StatoPaginaHidden').value;
+          if (stato == 'C') {
+              blockUI = true;
+              showHideConfirm();
+              commandType = 'ToolbarItem';
+              eleClicked = sender;
+              eventArgs.set_cancel(true);
+          }
+      }
+
+      //**********************************************************
+      // GESTIONE CLICK DA CODICE
+      //**********************************************************
+      function FireCommand() {
+          if (commandType == 'GridItem') { masterTable.fireCommand(commandName, commandArgument); }
+          if (commandType == 'ButtonItem') { eleClicked.click(); }
+          if (commandType == 'MenuItem') { eleClicked.click(); }
+          if (commandType == 'ToolbarItem') { eleClicked.click(); }
+      }
+
+
+
+
+      var element;
+      var validNavigation = false;
+      
+      
+      document.onkeydown = function (e) {
+          try {
+              if (!e) var e = window.event;
+              var keyCode = e.keyCode ? e.keyCode : e.which ? e.which : e.charCode;
+              // var event = jQuery.event.fix(e || window.event);
+              // var keycode = event.which;
+              if ((keyCode == 116) || (e.ctrlKey && keyCode == 82)) {
+                  validNavigation = true;
+              }
+              //var isControl = event.ctrlKey;
+          }
+          catch (e) { }
+      }
+
+
+
+       
+
+        document.onmousemove = function (e) {
+            try {
+                e = e || window.event;
+
+               
+                try {
+                    if ((element.href === "javascript:void(0)") || (element.href === undefined)) {
+                        validNavigation = true;
+                    } else {
+                        element = null;
+                        validNavigation = false;
+                    }
+                }
+                catch (e) { }
+                document.getElementById('Debug').value = element.href;
+            }
+            catch (e) { }
+        }
+
+        document.onclick = function (e) {
+            try {
+                e = e || window.event;
+                element = e.target || e.srcElement;
+                validNavigation = true;
+                document.getElementById('Debug').value = 'Click ' + validNavigation;
+            }
+            catch (e) { }
+        }
+
+
+      document.onmousedown = function (e) {
+          try {
+              e = e || window.event;
+              element = e.target || e.srcElement;
+              validNavigation = true;
+              document.getElementById('Debug').value = 'MouseDown ' + validNavigation;
+          }
+          catch (e) { }
+      }
+
+
+      window.onbeforeunload = function (e) {
+          try {
+              CloseApplication(e);
+          }
+          catch (e) {
+          }
+      }
+
+
+      
+
+      function WireUpEvents() {
+
+          //ASSOCIO L'EVENTO CLICK A TUTTI I LINK DELLA PAGINA
+          var links = document.getElementsByTagName('a');
+          for (i = 0; i < links.length; i++) {
+              addEvent(links[i], 'click', function () { validNavigation = true; });
+          }
+
+          document.forms[0].onSubmit = function () { validNavigation = true; };
+
+          document.onclick = function () { validNavigation = true; };
+
+          var inputs = document.getElementsByTagName('input');
+          for (i = 0; i < inputs.length; i++) {
+
+              var submit = (/submit/).test(inputs[i].getAttribute("type"));
+              if (submit == true) {
+                  inputs[i].onclick = function () { validNavigation = true; };
+              }
+
+              var image = (/image/).test(inputs[i].getAttribute("type"));
+              if (image == true) {
+                  inputs[i].onclick = function () { validNavigation = true; };
+              }
+
+
+
+              //var pagerInput = (/rcbInput/).test(inputs[i].className);
+              //if (pagerInput == true) {
+                  //inputs[i].onclick = function () { validNavigation = true; };
+              //}
+
+          }
+
+
+      }
+
+
+
+
+      window.onload = function () {
+
+
+
+
+
+          //WireUpEvents();
+
+
+
+          //Nascondo la notifica
+          document.getElementById('notification').style.display = 'none';
+
+          document.getElementById('notification').style.bottom = '0px';
+          document.getElementById('notification').style.right = '0px';
+          document.getElementById('notification').style.position = 'absolute';
+          document.getElementById('notification').style.zIndex = 50000000000;
+
+          document.getElementById('notificationClose').onclick = function () { document.getElementById('notification').style.display = 'none'; };
+
+
+          //QUESTA FUNZIONE RIATTIVA IL TIMEOUT 
+
+
+
+          GetServerData();
+
+          CheckNewTips();
+
+
+
+
+          //Carico le impostazioni.
+          loadSettings();
+
+          if (isOpen == "false") {
+              //Lo nascondo.
+
+              document.getElementById('leftPanel').style.display = 'none';
+              document.getElementById('imgMenu').className = 'MenuOn';
+              document.getElementById('imgMenu').alt = 'Visualizza Menu';
+
+          } else {
+              //Lo visualizzo.
+
+              document.getElementById('leftPanel').style.display = '';
+              document.getElementById('leftPanel').style.width = '220px';
+              document.getElementById('imgMenu').className = 'MenuOff';
+              document.getElementById('imgMenu').alt = 'Nascondi Menu';
+
+          }
+
+          if (document.getElementById('separator').addEventListener) {
+              document.getElementById('separator').addEventListener('click', MenuOnOff, false);
+          } else if (document.getElementById('separator').attachEvent) {
+              document.getElementById('separator').attachEvent('onclick', MenuOnOff);
+          }
+
+
+
+
+      }
+
+
+
+      function MenuOnOff() {
+         
+          if (isOpen == "true") {
+              document.getElementById('leftPanel').style.display = 'none';
+              document.getElementById('imgMenu').className = 'MenuOn';
+              document.getElementById('imgMenu').alt = 'Visualizza Menu';
+              isOpen = "false";
+
+
+          } else {
+
+              document.getElementById('leftPanel').style.display = '';
+              document.getElementById('leftPanel').style.width = '220px';
+              document.getElementById('imgMenu').className = 'MenuOff';
+              document.getElementById('imgMenu').alt = 'Nascondi Menu';
+              isOpen = "true";
+           }
+          //Salvo le impostazioni.
+          saveSettings('Menu', isOpen);
+      }
+
+      function loadSettings() {
+          var start = document.cookie.indexOf(COOKIE_NAME + "=");
+          if (start == -1) return;
+          start += COOKIE_NAME.length + 1;
+          var end = document.cookie.indexOf(";", start);
+          if (end == -1) end = document.cookie.length;
+          var cookieValue = unescape(document.cookie.substring(start, end));
+          var pair = cookieValue.split(":");
+          isOpen = pair;
+      }
+
+
+       function saveSettings(key, value) {
+          var today = new Date();
+          var expirationDate = new Date(today.getTime() + 365 * 1000 * 60 * 60 * 24);
+          document.cookie = COOKIE_NAME + "=" + value + ";expires=" + expirationDate.toGMTString();
+      }
+
+
+
+
+    
+ 
+
+    </script>
+
+</head>
+
+
+
+
+
+
+
+
+<body  runat="server" id="CorpoMaster"   style="margin:0; padding:0; height:100%;">
+
+<%--   <telerik:RadFormDecorator ID="MainCheckDecorator" runat="server" DecoratedControls="CheckBoxes,RadioButtons"  Skin="Web20" />--%>
+
+    <div id="confirmOverlay" style="visibility: hidden">
+    </div>
+
+    <div id="confirm" style="position: absolute; width: 100%; text-align: center; top: 300px;
+        visibility: hidden; z-index: 60001">
+        <table width="320px" cellpadding="5" cellspacing="5" border="0">
+            <tr>
+                <td class="style1">
+                    <table class="ContainerWrapper" border="0" cellpadding="2" cellspacing="0" width="100%">
+                        <tr class="ContainerHeader">
+                            <td>
+                                <span style="color: #00156E">Messaggio</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ContainerMargin">
+                                <table class="Container" cellpadding="0" cellspacing="4" width="100%" border="0">
+                                    <tr>
+                                        <td>
+                                            <img src="/sep/images/question.png" alt="" />
+                                        </td>
+                                        <td>
+                                            <asp:Label ID="MessaggioLabel" Font-Bold="true" Style="color: #00156E;" runat="server"
+                                                CssClass="Etichetta" Text="Desideri salvare le modifiche?" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr class="GridFooter">
+                                        <td colspan="2">
+                                            <table style="width: 100%">
+                                                <tr>
+                                                    <td align="center">
+                                                        <a href="#" onclick="showHideConfirm();" style="position: relative; color: white;
+                                                            display: inline-block; width: 80px; height: 20px; background: url('/sep/images/Button.png') no-repeat;
+                                                            font: 15px 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif; text-decoration: none;
+                                                            border: none; text-align: center">Sì</a>
+                                                    </td>
+                                                    <td align="center">
+                                                        <a href="#" onclick="ResetDirty(this); FireCommand(); if(blockUI) {HideConfirm();} else{ showHideConfirm();}"
+                                                            style="position: relative; color: white; display: inline-block; width: 80px;
+                                                            height: 20px; background: url('/sep/images/Button.png') no-repeat; font: 15px 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+                                                            text-decoration: none; border: none; text-align: center">No</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+     <div id="mainscreen" style=" display:none">
+
+    </div> 
+
+    <form id="form1" runat="server">
+
+    <div id="notification" style="display: none">
+        <table cellpadding="3" cellspacing="3" style="width: 100%; height: 100%; background-color: #BFDBFF;
+            border: 1 solid #00156E">
+            <tr>
+                <td style="height: 20px" id="notificationClose">
+                <table style=" width:100%">
+                <tr>
+                <td align="left"> <img alt="Chiudi" id="Img1" src="/sep/images/info.png" style="vertical-align: middle" /></td>
+                 <td>  <asp:Label ID="NotificaLabel" runat="server" Font-Bold="True" Style="color: #00156E;
+                        background-color: #BFDBFF; width: 135px" Text="Notifica" /></td>
+                  <td align="right"><img alt="Chiudi" id="ChiudiBtn" src="/sep/images/cancel.png" style="vertical-align: middle" /></td>
+                </tr>
+                </table>
+                   
+                 
+                  
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <table style="background-color: #FFFFFF; width: 100%; height: 100%">
+                        <tr>
+                            <td align="center">
+                                <div id="notificationIn" style="height: 160px">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+      <telerik:RadScriptManager ID="ScriptManager" runat="server" AsyncPostBackTimeout="15000" EnablePageMethods="true" />
+
+     
+    
+
+
+  <script type="text/javascript">
+
+  
+
+
+
+    /*
+
+      var timeRefresh;
+      var timeInterval;
+      var currentTime;
+      var expressTime;
+
+      expressTime = "<%=ExpressDate %>";
+      currentTime = "<%=LoginDate %>";
+
+      document.cookie = "express=" + escape(expressTime);
+
+     timeRefresh = setInterval("Refresh()", 1000);
+
+
+      function Refresh() {
+          var current = getCookie("express");
+          var date = current.split(" ")[0];
+          var time = current.split(" ")[1];
+          var scriptDate = new Date();
+          var year = scriptDate.getFullYear();
+          var month = scriptDate.getMonth() + 1;
+          var day = scriptDate.getDate();
+          var hour = scriptDate.getHours();
+          var min = scriptDate.getMinutes();
+          var second = scriptDate.getSeconds();
+          if (Date.UTC(year, month, day, hour, min, second) >=
+                Date.UTC(date.split("-")[0], date.split("-")[1], date.split("-")[2],
+                time.split(":")[0], time.split(":")[1], time.split(":")[2])) {
+                clearInterval(timeRefresh);
+                 window.location.replace('<%=ResolveUrl("~/TimeoutPage.aspx")%>');
+          }
+      }
+
+
+      function getCookie(name) {
+          var arg = name + "=";
+          var aLen = arg.length;
+          var cLen = document.cookie.length;
+          var i = 0;
+          while (i < cLen) {
+              var j = i + aLen;
+              if (document.cookie.substring(i, j) == arg) {
+                  return getCookieVal(j);
+              }
+              i = document.cookie.indexOf(" ", i) + 1;
+              if (i == 0) break;
+          }
+          return;
+      }
+
+      function getCookieVal(offset) {
+          var endStr = document.cookie.indexOf(";", offset);
+          if (endStr == -1) {
+              endStr = document.cookie.length;
+          }
+          return unescape(document.cookie.substring(offset, endStr));
+      }
+
+  
+      */
+
+
+
+      var AJAX;
+      var AJAX2;
+
+      function CloseApplication(e) {
+          
+       
+          CreateXMLHttpRequest();
+
+          AJAX.onreadystatechange = function () { if (AJAX.readyState != 4) return false; }
+         
+         
+           // e = window.event || e;
+          // if ((e.clientX < 0) || (e.clientY < 0)) {
+
+
+          //*****************************************************************************
+          //SE L'EVENTO ONBEFOREUNLOAD NON E' STATO GENERATO DAL CLICK DI UN LINK
+          //*****************************************************************************
+
+
+
+          if (!validNavigation) {
+
+              //alert(e.target.nodeName);
+
+              //var sourceEelement = window.event.srcElement;
+              //alert(window.event.type);
+              //if (sourceElement != null) {
+                  //alert(sourceElement.id);
+                  //alert(sourceElement.tagName);
+              //}
+
+              //alert('Chiusura');
+              AJAX.open("GET", '<%=ResolveUrl("~/ChiudiApplicazionePage.aspx")%>?c=' + Math.random() + '&id=' + '<% = Session("CurrentUser").Id %>', false);
+              AJAX.send(null);
+         }
+
+          //}
+
+
+         // validNavigation = false;
+      }
+
+
+     
+       
+
+//       document.getElementsByTagName("BODY")[0].onbeforeunload = function s(e) {
+
+
+       
+
+
+            function CreateXMLHttpRequest() {
+                if (window.ActiveXObject) {
+                    AJAX = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                else {
+                    AJAX = new XMLHttpRequest();
+                }
+            }
+
+
+
+            function CreateXMLHttpRequest2() {
+                if (window.ActiveXObject) {
+                    AJAX2 = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                else {
+                    AJAX2 = new XMLHttpRequest();
+                }
+            }
+
+
+
+            var attivaNotificaSegnalazioni = '<%= GetSegnalazioni %>';
+
+
+            function CheckNewTips() {
+                if (attivaNotificaSegnalazioni == '1') {
+                    CreateXMLHttpRequest2();
+                    if (AJAX2 == null) {
+                        alert('Il browser non supporta Ajax');
+                    }
+                    else {
+                        AJAX2.open("GET", '<%=ResolveUrl("~/NotificaSegnalazioniPage.aspx")%>?check=' + Math.random(), true);
+                        AJAX2.send(null);
+                    }
+                }
+            }
+
+
+          
+          
+          var attivaNotifica = '<%=AttivaNotifica %>';
+
+
+          function GetServerData() {
+              if (attivaNotifica == 'true') {
+                  CreateXMLHttpRequest();
+                  if (AJAX == null) {
+                      alert('Il browser non supporta Ajax');
+                  }
+                  else {
+                      if (attivaNotifica == 'true') {
+                          AJAX.open("GET", '<%=ResolveUrl("~/NotificaPage.aspx")%>?checkDocumenti=' + Math.random(), true);
+                      }
+                      AJAX.onreadystatechange = ClientSideUpdate;
+                      AJAX.send(null);
+                  }
+                  window.setTimeout(function () { GetServerData(); }, 10000);
+              }
+          }
+
+            function ClientSideUpdate() {
+                var result;
+              
+                if (AJAX.readyState == 4) {
+                   
+                    result = AJAX.responseText;
+                  
+                    if (result != '') {
+                      
+                        var n = result.indexOf("<div>");
+                      
+                        if (n == 0) {
+                             document.getElementById('notificationIn').innerHTML = result;
+                            var obj = document.getElementById('notification');
+                            slideDown(obj);
+                       }
+                      //try  { } catch (e) { }
+                        
+
+                    }
+
+
+                }
+            }
+
+
+
+           function slideDown(elem) {
+
+                var h = 175;
+                elem.style.height = "0px";
+                elem.style.display = "block";
+                elem.style.overflow = "hidden";
+               
+
+                var t = "";
+                for (var i = 0; i <= 100; i += 5) {
+
+                    (function () {
+                        var pos = i;
+
+                        t = setTimeout(function () {
+                            elem.style.height = (pos / 100) * h + "px";
+
+                        }, (pos + 1) * 10);
+                    })();
+
+                }
+
+            }
+
+        
+
+  </script>
+
+
+  
+
+    <%--INIZIO  TABELLA PRINCIPALE CHE CONTIENE TRE RIGHE HEADER CONTENT E FOOTER --%>
+
+    <table id="MAIN" style="width: 100%; height: 100%; border: 0" cellpadding="0" cellspacing="0">
+        <%--INIZIO SEZIONE HEADER--%>
+        <tr id="HEADER">
+            <td style="height: 72">
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 72px;">
+                    <tr>
+                        <td style="width: 300px;">
+                            <asp:Image ID="Image1" runat="server" BorderStyle="None" BorderWidth="0px" Height="72px"
+                                ImageUrl="~/images/N_prova2_A.png" Width="351px" />
+                        </td>
+                       <%-- <td class="N_prova2_B">
+                            &nbsp;
+                        </td>--%>
+                        <td class="N_prova2_D">
+                            <table cellpadding="0" cellspacing="0" width="100%" style="height: 21px">
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td align="right">
+                                        <asp:Label ID="DescrizioneClienteLabel" runat="server" CssClass="Etichetta" Font-Bold="True"
+                                            Font-Size="X-Small" ForeColor="White" />
+                                    </td>
+                                    <td align="right" width="10px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" rowspan="1" align="center">
+                                     
+                                        <%--<telerik:RadRotator ID="ToolBarModuli" runat="server" FrameDuration="3000" RotatorType="Buttons"
+                                            Height="22px" ItemHeight="22px" Width="549px" ItemWidth="102px" Skin="Office2007" WrapFrames="false"
+                                            BorderStyle="None">
+                                            <ItemTemplate>
+                                                <table style="height: 18px; border: 0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="width: 100px" align="center">
+                                                            <telerik:RadButton Width="100px" ID="openModule" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "Descrizione")%>'
+                                                                OnClientClicking="OnToolBarModuliClick" Skin="Office2007" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "Id").Tostring %>'
+                                                                OnCommand="OnToolbarButtonCommand" />
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                            </ItemTemplate>
+                                        </telerik:RadRotator>--%>
+
+                                         <asp:Repeater ID="ToolBarModuli" runat="server">
+                                            <HeaderTemplate>
+                                                <table style="height: 18px; border: 0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                            </HeaderTemplate>
+                                            <ItemTemplate>
+                                                <td style="width: 60px" align="center">
+                                                    <telerik:RadButton Width="60" ID="openModule" runat="server" Text="RadButton" OnClientClicking="OnToolBarModuliClick"
+                                                        Skin="Office2007" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "Id").Tostring %>' />
+                                                </td>
+                                            </ItemTemplate>
+                                            <SeparatorTemplate>
+                                                <td style="width: 2px">
+                                                </td>
+                                            </SeparatorTemplate>
+                                            <FooterTemplate>
+                                                </tr> </table>
+                                            </FooterTemplate>
+                                        </asp:Repeater>
+                               
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td align="right" style="font-family: Verdana; font-size: x-small; color: #FF9933;
+                                        font-weight: bold;">
+                                        &nbsp;<b>utente :
+                                            <asp:Label ID="DescrizioneUtenteLabel" runat="server" CssClass="Etichetta" ForeColor="White" />&nbsp;
+                                            Data:
+                                            <asp:Label ID="DataCorrenteLabel" runat="server" CssClass="Etichetta" ForeColor="White" />&nbsp;&nbsp;
+                                        </b>
+                                    </td>
+                                    <td align="right" style="font-family: Verdana; font-size: x-small; color: #FF9933;
+                                        font-weight: bold;" width="10px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign="top">
+                            <asp:Image ID="logoCliente" runat="server" ImageUrl="~/images/LogoAmministrazione/logoCliente.gif" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <%-- onclick="window.open('/sep/m_sep/pages/config/pgVersion.aspx?mod=<%# ModuloParsec.IdModulo %>','PaginaVersione','width=350,height=325,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no');--%><%-- CHIUDI MODULO TODO--%>
+        <tr id="CONTENT">
+            <td valign="top" style="background-color: #FFFFFF">
+                <table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="left" valign="top" style="background-color: #FFFFFF">
+                            <%-- onclick="window.open('/sep/m_sep/pages/config/pgVersion.aspx?mod=<%# ModuloParsec.IdModulo %>','PaginaVersione','width=350,height=325,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no');--%>
+                            <table id="panelContainer" border="0" style="width: 100%; height: 100%" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td id="leftPanel" valign="top" style="width: 220px">
+                                        <div id="sxPanel">
+                                            <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2007" OnClientItemClicking="OnClientItemClicking"
+                                                PersistStateInCookie="True">
+                                            </telerik:RadPanelBar>
+                                        </div>
+                                    </td>
+                                    <td id="separator" align="center" style="width: 11px; cursor: hand; background-color: #B9D5FF;">
+                                        <img src="" id="imgMenu" class="MenuOff" alt="Menù" />
+                                    </td>
+                                    <td id="separatorSpaces" align="center" style="width: 6px">
+                                        <asp:Image ID="spacer" Style="border: 0px" runat="server" ImageUrl="~/Images/spacer.gif"
+                                            Width="6px" Height="1px" alt="" />
+                                    </td>
+                                    <td id="rightPanelContainer" valign="top">
+                                        <table id="rightPanel" style="width: 100%; height: 100%" cellpadding="0" cellspacing="0">
+                                            <tr id="titleRow">
+                                                <td style="height: 10px">
+                                                    <table style="width: 100%; background-color: #3B3B3B" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td style="width: 199px; background-image: none; background-color: #0066FF;" valign="middle">
+                                                                <a title="Home Page del Modulo" style="text-decoration: none;"><span>
+                                                                    <asp:Image ID="arr_dw" Style="border: 0px" runat="server" ImageUrl="~/Images/arr_dw.gif"
+                                                                        Width="14px" Height="15px" alt="" />
+                                                                    <asp:Label ID="NomeModuloLabel" runat="server" ForeColor="White" CssClass="Etichetta" /></span></a>
+
+                                                         
+                                                            </td>
+                                                            <td style="background-color: #4892FF">
+                                                                &nbsp;&nbsp;
+                                                                <asp:Label ID="DescrizioneProceduraLabel" runat="server" ForeColor="White" CssClass="Etichetta" />
+                                                                <asp:HiddenField ID="hflVerificaElimina" runat="server" />
+                                                                <asp:HiddenField ID="ChiudiApplicazioneHidden" runat="server" />
+                                                                <asp:HiddenField ID="StatoPaginaHidden" runat="server" />
+                                                                 
+
+                                                            
+
+                                                            </td>
+                                                            <td align="right" style="background-color: #4892FF">
+
+                                                                 <input type="text" id="Debug" style=" width:150px; display:none"  />
+                                                               
+
+                                                                <asp:Panel ID="PannelloContenitore" runat="server">
+                                                                    <table>
+                                                                        <tr>
+
+                                                                       
+                                                                       
+                                                                       
+                                                                            <td class="style1" valign="middle">
+                                                                                <asp:Label ID="AnnoEsecizioLabel" runat="server" ForeColor="White" CssClass="Etichetta"
+                                                                                    Text="Anno esercizio" />
+                                                                            </td>
+                                                                            <td class="style1" valign="middle">
+                                                                                &nbsp;
+                                                                                <telerik:RadComboBox ID="AnnoEsecizioComboBox" runat="server" Skin="Office2007" Width="60"
+                                                                                    EmptyMessage="- Selezionare -" ItemsPerRequest="10" Filter="StartsWith" MaxHeight="300px"
+                                                                                    AutoPostBack="True" />
+                                                                            </td>
+                                                                            <td class="style1" valign="middle">
+                                                                                &nbsp;&nbsp;&nbsp;
+                                                                            </td>
+                                                                            <td class="style1" valign="middle">
+                                                                                <asp:Label ID="DistrettoLabel" runat="server" ForeColor="White" CssClass="Etichetta"
+                                                                                    Text="Distretto" />
+                                                                            </td>
+                                                                            <td valign="middle" align="right" style="vertical-align: middle">
+                                                                                &nbsp;
+                                                                                <telerik:RadComboBox ID="DistrettoComboBox" runat="server" AutoPostBack="True" EmptyMessage="- Selezionare -"
+                                                                                    Filter="StartsWith" ItemsPerRequest="10" MaxHeight="300px" Skin="Office2007"
+                                                                                    Width="180px" />
+                                                                                &nbsp; &nbsp;
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </asp:Panel>
+                                                            </td>
+                                                            <td style="background-color: #4892FF; width: 90px">
+                                                                <asp:Panel ID="componentPlaceHolderPanel" runat="server" HorizontalAlign="right">
+                                                                    <!-- Inizio Componenti installati -->
+                                                                    <asp:Table ID="componentPlaceHolder" runat="server" CellPadding="0" CellSpacing="0"
+                                                                        title="Componenti installati" Style="width: 100%">
+                                                                        <asp:TableRow>
+                                                                        </asp:TableRow>
+                                                                    </asp:Table>
+                                                                    <asp:PlaceHolder ID="scriptPlaceHolder" runat="server"></asp:PlaceHolder>
+                                                                    <!-- Fine Componenti installati -->
+                                                                </asp:Panel>
+                                                            </td>
+                                                            <td style="background-color: #4892FF; width: 55px" align="center">
+                                                                <asp:ImageButton ID="LogoutButton" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/images/Logout.gif" />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr id="bodyRow">
+                                                <td valign="top">
+                                                    <div style="background-color: #99CCFF; text-align: right;">
+                                                    </div>
+                                                    <div id="lyrCorpoPagina" style="position:relative; width: 100%; height: 100%; z-index: 30;
+                                                        overflow: auto">
+                                                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                        </asp:ContentPlaceHolder>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <%-- CHIUDI MODULO TODO--%><%-- FINE SEZIONE PULSANTI MODULO TODO--%>
+        <tr id="FOOTER">
+            <td style="height: 18px">
+                <table width="100%" style="height: 18px" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="center" valign="top" style="background-color: #4892FF; text-align: center;
+                            font-size: smaller; color: White">
+                            Copyright 2004-2020 Parsec 3.26&nbsp; - SEP v. 4.4.21.0
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <%-- SEZIONE lOGO CLIENTE TODO--%>
+    </table>
+
+    <%-- SEZIONE NOME CLIENTE TODO--%>
+
+    </form>
+
+    
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,110 @@
+﻿<%@ Master Language="VB" CodeFile="PopupPage.master.vb" Inherits="PopupPage" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+
+
+     <meta http-equiv ="Page-Enter" content ="blendTrans(Duration=0)"/>
+    <meta http-equiv="Page-Exit"content="blendTrans(Duration=0)"/> 
+    <link type="text/css" href="Styles/Styles.css" rel="stylesheet" />
+     <link type="text/css" href="Styles/Theme.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+
+    
+    <link href="Styles/sep.css"   rel="stylesheet" type="text/css" />
+    <style type="text/css"> 
+    .rgAltRow, .rgRow 
+    { 
+        cursor: pointer !important; 
+    } 
+        .style1
+        {
+            height: 25px;
+        }
+        </style>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="ScriptManager" runat="server"  AsyncPostBackTimeout="15000"/>
+   
+
+    
+ <center>
+     
+
+
+
+     <table id="MAIN" style="width:900px; height:600px;" cellpadding="0" cellspacing="0" border="0" runat="server">
+         <tr>
+             <td>
+                 <table style="width: 100%; height: 100%;border: 1px solid #4892FF" cellpadding="5" cellspacing="5">
+                     <tr>
+                         <td valign="top">
+                             <table  border="0" cellpadding="2" cellspacing="0" style="width: 100%; height: 100%;background-color: #DFE8F6; border-right: 1px solid #4892FF;border-bottom: 1px solid #4892FF;border-left: 1px solid #4892FF">
+                                 <tr style="background-color: #4892FF;height: 12px; border-top: 1px solid #3399FF;border-left: 1px solid #3399FF;border-right: 1px solid #3399FF" >
+                                     <td>
+                                         <table style="width:100%" cellpadding="0" cellspacing="0" border="0" >
+                                             <tr >
+                                                 <td>
+                                                     <asp:Label ID="DescrizioneProceduraLabel" runat="server" CssClass="Etichetta" Text="" ForeColor="White"  Font-Bold="true" />
+                                                 </td>
+                                                 <td align="right">
+                                                     <!-- Inizio Componenti installati -->
+                                                     <table cellpadding="0" cellspacing="0" title="Componenti installati" style="width:100%" border="0">
+                                                         <tr>
+                                                            <td align="right" style=" width:10px">
+                                                                <asp:PlaceHolder ID="scriptPlaceHolder" runat="server"></asp:PlaceHolder>
+                                                             </td>
+                                                           <td align="right" style="background-color: #4892FF; padding-right:5px">
+                                                                 <asp:PlaceHolder ID="componentPlaceHolder" runat="server"></asp:PlaceHolder>
+                                                             </td>
+                                                            
+                                                         </tr>
+                                                     </table>
+                                                     <!-- Fine Componenti installati -->
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td valign="top" style="padding: 4px">
+                                         <%--INIZIO CONTENUTO--%>
+                                             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+                                             </asp:ContentPlaceHolder>
+
+                                         <%--FINE CONTENUTO--%>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+                 </table>
+             </td>
+         </tr>
+     </table>
+
+
+
+
+  
+
+   
+ 
+ </center>
+  
+      
+   
+    </form>
+</body>
+</html>
