@@ -1,0 +1,45 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - document-management
+description:
+  it:
+    features:
+      - None
+    genericName: SEP
+    longDescription: |2
+       E' la suite applicativa dedicata alle attività di gestione della Pubblica Amministrazione di PARSEC 3.26. SEP permette di implementare la dematerializzazione dei processi della pubblica amministrazione. Grazie ai suoi diversi moduli applicativi, SEP recepisce le raccomandazioni e gli obblighi sulla informatizzazione della Pubblica Amministrazione indicati dalla normativa sulla digitalizzazione della PA nel Codice dell’Amministrazione Digitale (CAD), e permette alle Amministrazioni Pubbliche di trasformare le potenzialità dell’innovazione tecnologica in una maggiore efficienza, efficacia e soddisfazione dei cittadini e delle imprese.Ha una struttura modulare, con numerose funzionalità completamente integrate e aperte all’int roperabilità tramite API 
+    shortDescription: Sistema per Enti Pubblici
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: LGPL-3.0-only
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - name: None
+  type: none
+name: Sistema per Enti Pubblici
+platforms:
+  - web
+  - windows
+releaseDate: '2021-04-19'
+softwareType: standalone/web
+url: 'https://github.com/parsec-3-26/SEP'
