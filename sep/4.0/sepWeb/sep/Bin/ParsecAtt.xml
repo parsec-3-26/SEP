@@ -1,0 +1,2821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ParsecAtt
+</name>
+</assembly>
+<members>
+<member name="P:ParsecAtt.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ParsecAtt.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ParsecAtt.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ParsecAtt.DataContextAtt.#ctor">
+	<summary>
+ Inizializza un nuovo oggetto DataContextAtt utilizzando la stringa di connessione trovata nella sezione 'DataContextAtt' del file di configurazione dell'applicazione.
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.#ctor(System.String)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextAtt.
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextAtt.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tBozze">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaContatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tMetaModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tOrgano">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelDocumentoFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelModelloFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tContatoreGenerale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tContatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tAccertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tAnni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tOrgDel">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipolConv">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelPresenze">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.QualificaOrganigramma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tPresenzaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tStatoPuntoDiscussione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.Delega">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tLockDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelDocumentoClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tConsigliere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelConsigliereCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelUtenteCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaIncaricoDipendente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaSoggettoConferente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipologiaConcessione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tCapitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tTipoCapitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.Ruolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tRelOrdineGiorno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tLiquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tPresenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.DocumentoConservazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.IstanzaWKF">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.SchedaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.ControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DataContextAtt.tFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotBozze(ParsecAtt.Bozza)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tBozze. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotModello(ParsecAtt.Modello)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tModello. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaContatore(ParsecAtt.TipologiaContatore)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaContatore. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaDocumento(ParsecAtt.TipologiaDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaRegistro(ParsecAtt.TipologiaRegistro)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaRegistro. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotMetaModello(ParsecAtt.MetaModello)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tMetaModello. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotOrgano(ParsecAtt.TipologiaSeduta)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tOrgano. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelDocumentoFirma(ParsecAtt.DocumentoFirma)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelDocumentoFirma. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelModelloFirma(ParsecAtt.ModelloFirma)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelModelloFirma. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToUtente(ParsecAtt.Utente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Utente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotContatoreGenerale(ParsecAtt.ContatoreGenerale)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tContatoreGenerale. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotContatore(ParsecAtt.ContatoreSettore)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tContatore. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotAccertamento(ParsecAtt.Accertamento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tAccertamento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotAnni(ParsecAtt.AnnoDisponibile)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tAnni. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotOrgDel(ParsecAtt.Seduta)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tOrgDel. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipolConv(ParsecAtt.TipologiaConvocazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipolConv. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelPresenze(ParsecAtt.DocumentoPresenza)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelPresenze. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToQualificaOrganigramma(ParsecAtt.QualificaOrganigramma)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet QualificaOrganigramma. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotPresenzaSeduta(ParsecAtt.PresenzaSeduta)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tPresenzaSeduta. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotStatoPuntoDiscussione(ParsecAtt.StatoDiscussione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tStatoPuntoDiscussione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToDelega(ParsecAtt.Delega)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Delega. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotLockDocumento(ParsecAtt.LockDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tLockDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelDocumentoClassificazione(ParsecAtt.DocumentoClassificazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelDocumentoClassificazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotConsigliere(ParsecAtt.Consigliere)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tConsigliere. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotCommissione(ParsecAtt.Commissione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tCommissione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelConsigliereCommissione(ParsecAtt.ConsigliereCommissione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelConsigliereCommissione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelUtenteCommissione(ParsecAtt.UtenteCommissione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelUtenteCommissione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaFirma(ParsecAtt.TipologiaFirma)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaFirma. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToGruppo(ParsecAtt.Gruppo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Gruppo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToGruppoUtente(ParsecAtt.GruppoUtente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet GruppoUtente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToVisibilitaDocumento(ParsecAtt.VisibilitaDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet VisibilitaDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaIncaricoDipendente(ParsecAtt.TipologiaIncaricoDipendente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaIncaricoDipendente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaSoggettoConferente(ParsecAtt.TipologiaSoggettoConferente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaSoggettoConferente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipologiaConcessione(ParsecAtt.TipologiaConcessione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipologiaConcessione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotCapitolo(ParsecAtt.Capitolo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tCapitolo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotTipoCapitolo(ParsecAtt.TipologiaCapitolo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipoCapitolo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToRuolo(ParsecAtt.Ruolo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Ruolo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotRelOrdineGiorno(ParsecAtt.OrdineGiorno)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelOrdineGiorno. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotLiquidazione(ParsecAtt.Liquidazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tLiquidazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotSeduta(ParsecAtt.SedutaCommissione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tSeduta. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotDocumento(ParsecAtt.Documento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotPresenza(ParsecAtt.PresenzaCommissione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tPresenza. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToDocumentoConservazione(ParsecAtt.DocumentoConservazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet DocumentoConservazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToIstanzaWKF(ParsecAtt.IstanzaWKF)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet IstanzaWKF. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToIndicatoreControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet IndicatoreControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToImpegnoSpesa(ParsecAtt.ImpegnoSpesa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ImpegnoSpesa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToDettaglioSchedaControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToSchedaControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet SchedaControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToStruttura(ParsecAtt.Struttura)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Struttura. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToTipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToDettaglioControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet DettaglioControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddToControlloSuccessivoRegolaritaAmministrativa(ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ControlloSuccessivoRegolaritaAmministrativa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecAtt.DataContextAtt.AddTotFirma(ParsecAtt.Firma)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tFirma. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="T:ParsecAtt.DataContextAtt">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Accertamento.CreateAccertamento(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Accertamento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+</member><member name="P:ParsecAtt.Accertamento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Importo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.NumeroAccertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.NumeroSubAccertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Categoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.Risorsa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.StanziamentoIniziale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.StanziamentoAssestato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.DisponibilitaResiduale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.NumeroAttoAssunzioneOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.tDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Accertamento.tDocumentoReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.AnnoDisponibile.CreateAnnoDisponibile(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto AnnoDisponibile.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="valore">Valore iniziale della proprietà Valore.</param>
+</member><member name="P:ParsecAtt.AnnoDisponibile.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.AnnoDisponibile.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.AnnoDisponibile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Bozza.CreateBozza(System.Int32,System.String,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Bozza.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecAtt.Bozza.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Bozza.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Bozza.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Bozza.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Bozza.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Bozza.VisibilitaPubblica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Bozza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Capitolo.CreateCapitolo(System.Int32,System.Int64,System.Int64,System.Int16,System.String)">
+	<summary>
+ Crea un nuovo oggetto Capitolo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="numeroCapitolo">Valore iniziale della proprietà NumeroCapitolo.</param>
+	<param name="articolo">Valore iniziale della proprietà Articolo.</param>
+	<param name="idTipologiaCapitolo">Valore iniziale della proprietà IdTipologiaCapitolo.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.Capitolo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.NumeroCapitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.IdTipologiaCapitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Importo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Categoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Funzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Servizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Intervento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Risorsa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Stato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.LogDataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Missione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.Programma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Capitolo.MacroAggregato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Commissione.CreateCommissione(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto Commissione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.Commissione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.Presidente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.IdPresidente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.VicePresidente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.IdVicePresidente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.Segretario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.ViceSegretario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.Stato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Commissione.DataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Commissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Consigliere.CreateConsigliere(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto Consigliere.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="nominativo">Valore iniziale della proprietà Nominativo.</param>
+</member><member name="P:ParsecAtt.Consigliere.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.Nominativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.DataDa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.DataA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.Stato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Consigliere.DataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Consigliere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ConsigliereCommissione.CreateConsigliereCommissione(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ConsigliereCommissione.
+ </summary>
+	<param name="idConsigliere">Valore iniziale della proprietà IdConsigliere.</param>
+	<param name="idCommissione">Valore iniziale della proprietà IdCommissione.</param>
+</member><member name="P:ParsecAtt.ConsigliereCommissione.IdConsigliere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ConsigliereCommissione.IdCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ConsigliereCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ContatoreGenerale.CreateContatoreGenerale(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ContatoreGenerale.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="anno">Valore iniziale della proprietà Anno.</param>
+	<param name="idTipologiaRegistro">Valore iniziale della proprietà IdTipologiaRegistro.</param>
+	<param name="valore">Valore iniziale della proprietà Valore.</param>
+</member><member name="P:ParsecAtt.ContatoreGenerale.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreGenerale.Anno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreGenerale.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreGenerale.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ContatoreGenerale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ContatoreSettore.CreateContatoreSettore(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ContatoreSettore.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="valore">Valore iniziale della proprietà Valore.</param>
+	<param name="codiceSettore">Valore iniziale della proprietà CodiceSettore.</param>
+	<param name="anno">Valore iniziale della proprietà Anno.</param>
+</member><member name="P:ParsecAtt.ContatoreSettore.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreSettore.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreSettore.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreSettore.CodiceSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ContatoreSettore.Anno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ContatoreSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.CreateControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.String,System.DateTime,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="nomefileIter">Valore iniziale della proprietà NomefileIter.</param>
+	<param name="dataEstrazione">Valore iniziale della proprietà DataEstrazione.</param>
+	<param name="eseguito">Valore iniziale della proprietà Eseguito.</param>
+	<param name="periodicita">Valore iniziale della proprietà Periodicita.</param>
+	<param name="percentuale">Valore iniziale della proprietà Percentuale.</param>
+	<param name="idModelloIter">Valore iniziale della proprietà IdModelloIter.</param>
+	<param name="idRuolo">Valore iniziale della proprietà IdRuolo.</param>
+	<param name="idDestinatarioIter">Valore iniziale della proprietà IdDestinatarioIter.</param>
+	<param name="nomeFileTemplate">Valore iniziale della proprietà NomeFileTemplate.</param>
+	<param name="controllore">Valore iniziale della proprietà Controllore.</param>
+	<param name="criterioScelta">Valore iniziale della proprietà CriterioScelta.</param>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.NomefileIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.DataEstrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.Eseguito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.Periodicita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.Percentuale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.IdModelloIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.IdRuolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.IdDestinatarioIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.NomeFileTemplate">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.Controllore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa.CriterioScelta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Delega.CreateDelega(System.Int64,System.Int32,System.Int32,System.DateTime,System.DateTime,System.DateTime,System.Int32,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Delega.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDelegante">Valore iniziale della proprietà IdDelegante.</param>
+	<param name="idDelegato">Valore iniziale della proprietà IdDelegato.</param>
+	<param name="validaDa">Valore iniziale della proprietà ValidaDa.</param>
+	<param name="validaA">Valore iniziale della proprietà ValidaA.</param>
+	<param name="dataIns">Valore iniziale della proprietà DataIns.</param>
+	<param name="idUtenteIns">Valore iniziale della proprietà IdUtenteIns.</param>
+	<param name="cancellato">Valore iniziale della proprietà Cancellato.</param>
+</member><member name="P:ParsecAtt.Delega.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.IdDelegante">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.IdDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.ValidaDa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.ValidaA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.DataIns">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.IdUtenteIns">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.Cancellato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.IdUtenteCanc">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Delega.DataCanc">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Delega">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.CreateDettaglioControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Double,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DettaglioControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idControlloSuccessivoRegolaritaAmministrativa">Valore iniziale della proprietà IdControlloSuccessivoRegolaritaAmministrativa.</param>
+	<param name="codiceSettore">Valore iniziale della proprietà CodiceSettore.</param>
+	<param name="descrizioneSettore">Valore iniziale della proprietà DescrizioneSettore.</param>
+	<param name="numeroAtti">Valore iniziale della proprietà NumeroAtti.</param>
+	<param name="percentuale">Valore iniziale della proprietà Percentuale.</param>
+	<param name="numeroAttiEstratti">Valore iniziale della proprietà NumeroAttiEstratti.</param>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.IdControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.CodiceSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.DescrizioneSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.NumeroAtti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.Percentuale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa.NumeroAttiEstratti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DettaglioControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.CreateDettaglioSchedaControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idIndicatore">Valore iniziale della proprietà IdIndicatore.</param>
+	<param name="idScheda">Valore iniziale della proprietà IdScheda.</param>
+	<param name="esitoConformita">Valore iniziale della proprietà EsitoConformita.</param>
+</member><member name="P:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.IdIndicatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.IdScheda">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.EsitoConformita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa.Annotazioni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DettaglioSchedaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Documento.CreateDocumento(System.Int32,System.String,System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Documento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="oggetto">Valore iniziale della proprietà Oggetto.</param>
+	<param name="numVersione">Valore iniziale della proprietà NumVersione.</param>
+	<param name="inviatoDaFascicolo">Valore iniziale della proprietà InviatoDaFascicolo.</param>
+	<param name="riservato">Valore iniziale della proprietà Riservato.</param>
+</member><member name="P:ParsecAtt.Documento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdUfficio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.ContatoreGenerale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.ContatoreStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataProposta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.CopFinanziaria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Impronta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Chiusa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.NumVersione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataEs">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataAffissioneDa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.GiorniAffissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataComunicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.NoteComunicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.LogUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.LogDataRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.LogSPID">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdTipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Formalizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.PubblicatoWeb">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Pubblicato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataEsecutivaDa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.NumeroRegistroPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdVarModel">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdAutore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.GiorniEsecutivita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IterAvviato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Link">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.NomeFileFirmato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.InviatoDaFascicolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Riservato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.IdFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Documento.tImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Documento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DocumentoClassificazione.CreateDocumentoClassificazione(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DocumentoClassificazione.
+ </summary>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idClassificazione">Valore iniziale della proprietà IdClassificazione.</param>
+</member><member name="P:ParsecAtt.DocumentoClassificazione.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoClassificazione.IdClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoClassificazione.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DocumentoClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DocumentoConservazione.CreateDocumentoConservazione(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DocumentoConservazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.DocumentoConservazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoConservazione.IdPacchettoVersamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoConservazione.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoConservazione.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DocumentoConservazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DocumentoFirma.CreateDocumentoFirma(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DocumentoFirma.
+ </summary>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idFirma">Valore iniziale della proprietà IdFirma.</param>
+</member><member name="P:ParsecAtt.DocumentoFirma.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.IdFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Esito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Prefisso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Qualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.QualificaDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.StrutturaDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.NomeFile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.IdDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.FirmatoDigitalmente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoFirma.IdUtentePredefinito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DocumentoFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.DocumentoPresenza.CreateDocumentoPresenza(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto DocumentoPresenza.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.DocumentoPresenza.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoPresenza.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoPresenza.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.DocumentoPresenza.Presente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.DocumentoPresenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Firma.CreateFirma(System.Int32,System.String,System.Boolean,System.String,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Firma.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="firmaSemplice">Valore iniziale della proprietà FirmaSemplice.</param>
+	<param name="defaultQualifica">Valore iniziale della proprietà DefaultQualifica.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecAtt.Firma.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.Info">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.FirmaSemplice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DataDefault">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.TipiEsito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.TipiPrefisso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultEsito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultPrefisso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultQualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultStrutturaDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultQualificaDelegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.FileFirmato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.IdRuolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.IdTipologiaFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.IdTipologiaQualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.IdGerarchia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Firma.DefaultQualificaAlFemminile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Firma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Gruppo.CreateGruppo(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Gruppo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="abilitato">Valore iniziale della proprietà Abilitato.</param>
+</member><member name="P:ParsecAtt.Gruppo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Gruppo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Gruppo.DataInizioValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Gruppo.DataFineValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Gruppo.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.GruppoUtente.CreateGruppoUtente(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto GruppoUtente.
+ </summary>
+	<param name="idGruppo">Valore iniziale della proprietà IdGruppo.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecAtt.GruppoUtente.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.GruppoUtente.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ImpegnoSpesa.CreateImpegnoSpesa(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ImpegnoSpesa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Importo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.NumeroImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.NumeroSubImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Funzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Servizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Intervento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.StanziamentoIniziale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.StanziamentoAssestato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.DisponibilitaResiduale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.NumeroAttoAssunzioneOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Missione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.Programma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.MacroAggregato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.CIG">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.IdCapitoloDedaGroup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.IdImpegnoDedaGroup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.IdFornitoreDedaGroup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.tDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ImpegnoSpesa.tDocumentoReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa.CreateIndicatoreControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.String,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto IndicatoreControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="nome">Valore iniziale della proprietà Nome.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="abilitato">Valore iniziale della proprietà Abilitato.</param>
+</member><member name="P:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.IndicatoreControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.IstanzaWKF.CreateIstanzaWKF(System.Int64,System.Int32,System.Int16)">
+	<summary>
+ Crea un nuovo oggetto IstanzaWKF.
+ </summary>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idStato">Valore iniziale della proprietà IdStato.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+</member><member name="P:ParsecAtt.IstanzaWKF.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.IstanzaWKF.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.IstanzaWKF.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.IstanzaWKF">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Liquidazione.CreateLiquidazione(System.Int32,System.Int32,System.Int32,System.Int64,System.Int32,System.Decimal,System.Int32,System.Int32,System.Decimal,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Liquidazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idImpegno">Valore iniziale della proprietà IdImpegno.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="capitolo">Valore iniziale della proprietà Capitolo.</param>
+	<param name="annoImpegno">Valore iniziale della proprietà AnnoImpegno.</param>
+	<param name="importoImpegno">Valore iniziale della proprietà ImportoImpegno.</param>
+	<param name="annoEsercizio">Valore iniziale della proprietà AnnoEsercizio.</param>
+	<param name="numero">Valore iniziale della proprietà Numero.</param>
+	<param name="importoLiquidato">Valore iniziale della proprietà ImportoLiquidato.</param>
+	<param name="ordinale">Valore iniziale della proprietà Ordinale.</param>
+</member><member name="P:ParsecAtt.Liquidazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.IdImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.NumeroImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.NumeroSubImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.AnnoImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.ImportoImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Disponibilita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Numero">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Mandato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.ImportoLiquidato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.ImportoDaLiquidare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Funzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Servizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Intervento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Nominativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.CFPIVA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Norma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Modalita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.ModalitaPagamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.IBAN">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.CIG">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.CUP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.DURC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Quietanzante">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Missione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.Programma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.MacroAggregato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.NumeroDetermina">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.AnnoDetermina">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.tDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Liquidazione.tDocumentoReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.LockDocumento.CreateLockDocumento(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto LockDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codiceDocumento">Valore iniziale della proprietà CodiceDocumento.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecAtt.LockDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.LockDocumento.CodiceDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.LockDocumento.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.LockDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.MetaModello.CreateMetaModello(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Crea un nuovo oggetto MetaModello.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="percorso">Valore iniziale della proprietà Percorso.</param>
+	<param name="nomefile">Valore iniziale della proprietà Nomefile.</param>
+</member><member name="P:ParsecAtt.MetaModello.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.MetaModello.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.MetaModello.Percorso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.MetaModello.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.MetaModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Modello.CreateModello(System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Modello.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="obbligoAllegato">Valore iniziale della proprietà ObbligoAllegato.</param>
+	<param name="pubblicazioneLiq">Valore iniziale della proprietà PubblicazioneLiq.</param>
+</member><member name="P:ParsecAtt.Modello.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.DataInizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.DataFine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Disabilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Path">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdTipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Proposta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Pubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdModelloAdottato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.DirName">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.FileName">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.FileNameNuovoDoc">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.ObbligoAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.PubblicazioneLiq">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Modello.IdSezioneTrasparenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Modello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.ModelloFirma.CreateModelloFirma(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto ModelloFirma.
+ </summary>
+	<param name="idModello">Valore iniziale della proprietà IdModello.</param>
+	<param name="idFirma">Valore iniziale della proprietà IdFirma.</param>
+	<param name="ordinale">Valore iniziale della proprietà Ordinale.</param>
+	<param name="iter">Valore iniziale della proprietà Iter.</param>
+	<param name="iterObbligatorio">Valore iniziale della proprietà IterObbligatorio.</param>
+</member><member name="P:ParsecAtt.ModelloFirma.IdModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ModelloFirma.IdFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ModelloFirma.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ModelloFirma.Iter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.ModelloFirma.IterObbligatorio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.ModelloFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.OrdineGiorno.CreateOrdineGiorno(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto OrdineGiorno.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idSeduta">Valore iniziale della proprietà IdSeduta.</param>
+</member><member name="P:ParsecAtt.OrdineGiorno.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.IdSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.CodiceDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.IdUfficio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.OrdineGiorno.IdStatoDiscussione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.OrdineGiorno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.PresenzaCommissione.CreatePresenzaCommissione(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto PresenzaCommissione.
+ </summary>
+	<param name="idSeduta">Valore iniziale della proprietà IdSeduta.</param>
+	<param name="idConsigliere">Valore iniziale della proprietà IdConsigliere.</param>
+</member><member name="P:ParsecAtt.PresenzaCommissione.IdSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaCommissione.IdConsigliere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaCommissione.Presenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaCommissione.AssenzaGiustificata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaCommissione.AssenzaIngiustificata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.PresenzaCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.PresenzaSeduta.CreatePresenzaSeduta(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto PresenzaSeduta.
+ </summary>
+	<param name="idSeduta">Valore iniziale della proprietà IdSeduta.</param>
+	<param name="codiceStruttura">Valore iniziale della proprietà CodiceStruttura.</param>
+	<param name="presente">Valore iniziale della proprietà Presente.</param>
+</member><member name="P:ParsecAtt.PresenzaSeduta.IdSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaSeduta.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.PresenzaSeduta.Presente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.PresenzaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.QualificaOrganigramma.CreateQualificaOrganigramma(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto QualificaOrganigramma.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="nome">Valore iniziale della proprietà Nome.</param>
+	<param name="admin">Valore iniziale della proprietà Admin.</param>
+</member><member name="P:ParsecAtt.QualificaOrganigramma.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.QualificaOrganigramma.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.QualificaOrganigramma.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.QualificaOrganigramma.Admin">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.QualificaOrganigramma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Ruolo.CreateRuolo(System.Int64)">
+	<summary>
+ Crea un nuovo oggetto Ruolo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.Ruolo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Ruolo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Ruolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.CreateSchedaControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.Int32,System.String,System.Int32,System.String,System.DateTime,System.String,System.Int32,System.DateTime)">
+	<summary>
+ Crea un nuovo oggetto SchedaControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idControlloSuccessivoRegolaritaAmministrativa">Valore iniziale della proprietà IdControlloSuccessivoRegolaritaAmministrativa.</param>
+	<param name="descrizioneSettore">Valore iniziale della proprietà DescrizioneSettore.</param>
+	<param name="numeroAtto">Valore iniziale della proprietà NumeroAtto.</param>
+	<param name="descrizioneTipologiaAtto">Valore iniziale della proprietà DescrizioneTipologiaAtto.</param>
+	<param name="dataAtto">Valore iniziale della proprietà DataAtto.</param>
+	<param name="oggettoAtto">Valore iniziale della proprietà OggettoAtto.</param>
+	<param name="esito">Valore iniziale della proprietà Esito.</param>
+	<param name="dataEstrazione">Valore iniziale della proprietà DataEstrazione.</param>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.IdControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.DataControllo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.DescrizioneSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.NumeroAtto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.DescrizioneTipologiaAtto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.DataAtto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.OggettoAtto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Esito">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Osservazioni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.NomefileFirmato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Responsabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.Controllore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa.DataEstrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.SchedaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Seduta.CreateSeduta(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Seduta.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.Seduta.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.DataPrimaConvocazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.DataSecondaConvocazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.IdTipologiaConvocazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.IdTipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.PrimaConvocazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.DataTrasmissioneCapigruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Seduta.DataTrasmissioneRevisori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Seduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.SedutaCommissione.CreateSedutaCommissione(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto SedutaCommissione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.SedutaCommissione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SedutaCommissione.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.SedutaCommissione.IdCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.SedutaCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.StatoDiscussione.CreateStatoDiscussione(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto StatoDiscussione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.StatoDiscussione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.StatoDiscussione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.StatoDiscussione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Struttura.CreateStruttura(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Struttura.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="ordine">Valore iniziale della proprietà Ordine.</param>
+</member><member name="P:ParsecAtt.Struttura.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.IdGerarchia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.IdQualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.Responsabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.IDUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Struttura.Ordine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.CreateTipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa(System.Int32,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="soggettoControllo">Valore iniziale della proprietà SoggettoControllo.</param>
+</member><member name="P:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.IdTipologia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa.SoggettoControllo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaAttoSoggettaControlloSuccessivoRegolaritaAmministrativa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaCapitolo.CreateTipologiaCapitolo(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaCapitolo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.TipologiaCapitolo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaCapitolo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaCapitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaConcessione.CreateTipologiaConcessione(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaConcessione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.TipologiaConcessione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaConcessione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaConcessione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaContatore.CreateTipologiaContatore(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto TipologiaContatore.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.TipologiaContatore.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaContatore.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaContatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaConvocazione.CreateTipologiaConvocazione(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto TipologiaConvocazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.TipologiaConvocazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaConvocazione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaConvocazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaDocumento.CreateTipologiaDocumento(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto TipologiaDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="modellizzabile">Valore iniziale della proprietà Modellizzabile.</param>
+</member><member name="P:ParsecAtt.TipologiaDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaDocumento.Modellizzabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaDocumento.TipoAdottato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaDocumento.TipoDefinitivo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaFirma.CreateTipologiaFirma(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto TipologiaFirma.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecAtt.TipologiaFirma.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaFirma.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaFirma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaIncaricoDipendente.CreateTipologiaIncaricoDipendente(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaIncaricoDipendente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.TipologiaIncaricoDipendente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaIncaricoDipendente.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaIncaricoDipendente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaRegistro.CreateTipologiaRegistro(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaRegistro.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.TipologiaRegistro.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.Disattivato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaRegistro.VisibileInIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaSeduta.CreateTipologiaSeduta(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto TipologiaSeduta.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="disabilitato">Valore iniziale della proprietà Disabilitato.</param>
+</member><member name="P:ParsecAtt.TipologiaSeduta.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSeduta.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSeduta.Disabilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSeduta.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSeduta.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSeduta.CodiceTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.TipologiaSoggettoConferente.CreateTipologiaSoggettoConferente(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaSoggettoConferente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecAtt.TipologiaSoggettoConferente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.TipologiaSoggettoConferente.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.TipologiaSoggettoConferente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.Utente.CreateUtente(System.Int32,System.String,System.String)">
+	<summary>
+ Crea un nuovo oggetto Utente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="username">Valore iniziale della proprietà Username.</param>
+	<param name="cognome">Valore iniziale della proprietà Cognome.</param>
+</member><member name="P:ParsecAtt.Utente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Utente.Username">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Utente.Cognome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Utente.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Utente.SuperUser">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.Utente.LogTipoOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.UtenteCommissione.CreateUtenteCommissione(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto UtenteCommissione.
+ </summary>
+	<param name="idCommissione">Valore iniziale della proprietà IdCommissione.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecAtt.UtenteCommissione.IdCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.UtenteCommissione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.UtenteCommissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecAtt.VisibilitaDocumento.CreateVisibilitaDocumento(System.Int64,System.Int32,System.Int16,System.Int32,System.Int32,System.Boolean,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto VisibilitaDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+	<param name="idEntita">Valore iniziale della proprietà IdEntita.</param>
+	<param name="tipoEntita">Valore iniziale della proprietà TipoEntita.</param>
+	<param name="abilitaCancellaEntita">Valore iniziale della proprietà AbilitaCancellaEntita.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="logDataOperazione">Valore iniziale della proprietà LogDataOperazione.</param>
+	<param name="logIdUtente">Valore iniziale della proprietà LogIdUtente.</param>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.IdEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.TipoEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.AbilitaCancellaEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.LogDataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecAtt.VisibilitaDocumento.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecAtt.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member>
+</members>
+</doc>

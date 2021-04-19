@@ -1,0 +1,3494 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ParsecPro
+</name>
+</assembly>
+<members>
+<member name="P:ParsecPro.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ParsecPro.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ParsecPro.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ParsecPro.DataContextPro.#ctor">
+	<summary>
+ Inizializza un nuovo oggetto DataContextPro utilizzando la stringa di connessione trovata nella sezione 'DataContextPro' del file di configurazione dell'applicazione.
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.#ctor(System.String)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextPro.
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextPro.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tTipoRiceziones">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tTipoDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRegAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRegReferenteEsterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRegReferenteInterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tOggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tOggettoRelStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRelRegistrazioneSelf">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tLockRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tEmailRelAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tEmailCancellata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tAllegatiScansionati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tSessioneEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tab_Categoria1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tEmailArrivate">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tTipoEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tLockCasellaEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.StrutturaEsterna">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.TitolarioClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.TitolarioClassificazioneLivello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.Documento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tTipoRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRelRegistrazioneProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.Procedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_NotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_StatoFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_TipologiaNotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_MessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_DettaglioRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.tRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.IstanzaWKF">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_ReferenteInternoDefault">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_FatturaElettronicaAttiva">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_DettaglioFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.DocumentoConservazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.DocumentiAtti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_UnitaImmobiliare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.PRO_EsportazioneFatturaTINN">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DataContextPro.SettorePrimoLivello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotTipoRiceziones(ParsecPro.TipoRicezioneInvio)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipoRiceziones. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotTipoDocumento(ParsecPro.TipoDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipoDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRegistrazione(ParsecPro.Registrazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRegistrazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRegAllegato(ParsecPro.Allegato)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRegAllegato. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRegReferenteEsterno(ParsecPro.ReferenteEsterno)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRegReferenteEsterno. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRegReferenteInterno(ParsecPro.ReferenteInterno)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRegReferenteInterno. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotOggetto(ParsecPro.Oggetto)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tOggetto. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotOggettoRelStruttura(ParsecPro.StrutturaOggetto)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tOggettoRelStruttura. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotEsercizio(ParsecPro.Esercizio)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tEsercizio. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRelRegistrazioneSelf(ParsecPro.Collegamento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelRegistrazioneSelf. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotLockRegistrazione(ParsecPro.LockRegistrazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tLockRegistrazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotEmail(ParsecPro.Email)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tEmail. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotEmailRelAllegato(ParsecPro.AllegatoEmail)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tEmailRelAllegato. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotEmailCancellata(ParsecPro.EmailCancellata)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tEmailCancellata. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotAllegatiScansionati(ParsecPro.AllegatoScansionato)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tAllegatiScansionati. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotSessioneEmergenza(ParsecPro.SessioneEmergenza)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tSessioneEmergenza. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotab_Categoria1(ParsecPro.CategoriaIPA)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tab_Categoria1. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotEmailArrivate(ParsecPro.EmailArrivo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tEmailArrivate. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotTipoEmail(ParsecPro.TipoEmail)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipoEmail. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotLockCasellaEmail(ParsecPro.LockCasellaEmail)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tLockCasellaEmail. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToStruttura(ParsecPro.Struttura)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Struttura. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToStrutturaEsterna(ParsecPro.StrutturaEsterna)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet StrutturaEsterna. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToGruppo(ParsecPro.Gruppo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Gruppo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToGruppoUtente(ParsecPro.GruppoUtente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet GruppoUtente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToVisibilitaDocumento(ParsecPro.VisibilitaDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet VisibilitaDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToTitolarioClassificazione(ParsecPro.TitolarioClassificazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TitolarioClassificazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToTitolarioClassificazioneLivello(ParsecPro.TitolarioClassificazioneLivello)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TitolarioClassificazioneLivello. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToDocumento(ParsecPro.Documento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Documento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotTipoRegistrazione(ParsecPro.TipologiaRegistrazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTipoRegistrazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToUtente(ParsecPro.Utente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Utente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRelRegistrazioneProcedimento(ParsecPro.ProcedimentoRegistrazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRelRegistrazioneProcedimento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToProcedimento(ParsecPro.Procedimento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Procedimento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_NotificaSdI(ParsecPro.NotificaSdI)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_NotificaSdI. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_StatoFatturaElettronica(ParsecPro.StatoFatturaElettronica)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_StatoFatturaElettronica. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_TipologiaNotificaSdI(ParsecPro.TipologiaNotificaSdI)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_TipologiaNotificaSdI. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_MessaggioSdI(ParsecPro.MessaggioSdI)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_MessaggioSdI. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_FatturaElettronica(ParsecPro.FatturaElettronica)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_FatturaElettronica. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_DettaglioRegistroProtocollo(ParsecPro.DettaglioRegistroProtocollo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_DettaglioRegistroProtocollo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddTotRegistroProtocollo(ParsecPro.RegistroProtocollo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tRegistroProtocollo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToIstanzaWKF(ParsecPro.IstanzaWKF)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet IstanzaWKF. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_ReferenteInternoDefault(ParsecPro.ReferenteInternoDefault)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_ReferenteInternoDefault. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_FatturaElettronicaAttiva(ParsecPro.FatturaElettronicaAttiva)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_FatturaElettronicaAttiva. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_DettaglioFattura(ParsecPro.DettaglioFattura)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_DettaglioFattura. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToDocumentoConservazione(ParsecPro.DocumentoConservazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet DocumentoConservazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToDocumentiAtti(ParsecPro.DocumentiAtti)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet DocumentiAtti. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_UnitaImmobiliare(ParsecPro.UnitaImmobiliare)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_UnitaImmobiliare. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToPRO_EsportazioneFatturaTINN(ParsecPro.EsportazioneFatturaTINN)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PRO_EsportazioneFatturaTINN. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.AddToSettorePrimoLivello(ParsecPro.SettorePrimoLivello)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet SettorePrimoLivello. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecPro.DataContextPro.FiltroRegistrazione(System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int16})">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+	<param name="utente">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="arrivo">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="partenza">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="interno">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="annullato">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="numeroProtDa">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="numeroProtA">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataImmissioneDa">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataImmissioneA">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="refEsterniDenominazione">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="refEsterniNome">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="refEsterniCitta">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="refEsterniEmail">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="idStruttura">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="completo">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="oggetto">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="idClassificazione">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="classCompleta">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="riscontro">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="annoRiscontro">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="protMittente">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="note">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="noteInterne">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="idTipoDocumento">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="idTipoRicezione">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataDocDa">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataDocA">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataRicDa">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="dataRicA">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="utenteIns">Nessuna documentazione sui metadati disponibile.</param>
+	<param name="stampa">Nessuna documentazione sui metadati disponibile.</param>
+</member><member name="T:ParsecPro.DataContextPro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Allegato.CreateAllegato(System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto Allegato.
+ </summary>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.Allegato.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.TipoRiferimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.CollocazioneTelematica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.Impronta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.DataPrimaRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.LogSpid">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.NomeFileFirmato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Allegato.RegistrazioneReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Allegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.AllegatoEmail.CreateAllegatoEmail(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto AllegatoEmail.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idEmail">Valore iniziale della proprietà IdEmail.</param>
+	<param name="idAllegato">Valore iniziale della proprietà IdAllegato.</param>
+</member><member name="P:ParsecPro.AllegatoEmail.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoEmail.IdEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoEmail.IdAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.AllegatoEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.AllegatoScansionato.CreateAllegatoScansionato(System.Int32,System.Int32,System.String,System.DateTime)">
+	<summary>
+ Creare un nuovo oggetto AllegatoScansionato.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="nomefile">Valore iniziale della proprietà Nomefile.</param>
+	<param name="dataAcquisizione">Valore iniziale della proprietà DataAcquisizione.</param>
+</member><member name="P:ParsecPro.AllegatoScansionato.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.DataAcquisizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.AllegatoScansionato.ContenutoOcr">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.AllegatoScansionato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.CategoriaIPA.CreateCategoriaIPA(System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto CategoriaIPA.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="valore">Valore iniziale della proprietà Valore.</param>
+</member><member name="P:ParsecPro.CategoriaIPA.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.CategoriaIPA.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.CategoriaIPA.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.CategoriaIPA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Collegamento.CreateCollegamento(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto Collegamento.
+ </summary>
+	<param name="tipoRegistrazione1">Valore iniziale della proprietà TipoRegistrazione1.</param>
+	<param name="numeroProtocollo1">Valore iniziale della proprietà NumeroProtocollo1.</param>
+	<param name="annoProtocollo1">Valore iniziale della proprietà AnnoProtocollo1.</param>
+	<param name="tipoRegistrazione2">Valore iniziale della proprietà TipoRegistrazione2.</param>
+	<param name="numeroProtocollo2">Valore iniziale della proprietà NumeroProtocollo2.</param>
+	<param name="annoProtocollo2">Valore iniziale della proprietà AnnoProtocollo2.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.Collegamento.TipoRegistrazione1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.NumeroProtocollo1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.AnnoProtocollo1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.TipoRegistrazione2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.NumeroProtocollo2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.AnnoProtocollo2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Collegamento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Collegamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.DettaglioFattura.CreateDettaglioFattura(System.Int32,System.Int32,System.Double,System.Double,System.Double)">
+	<summary>
+ Creare un nuovo oggetto DettaglioFattura.
+ </summary>
+	<param name="idDettaglioFattura">Valore iniziale della proprietà idDettaglioFattura.</param>
+	<param name="fkFatturaElettronica">Valore iniziale della proprietà fkFatturaElettronica.</param>
+	<param name="totaleImponibile">Valore iniziale della proprietà totaleImponibile.</param>
+	<param name="iVA">Valore iniziale della proprietà IVA.</param>
+	<param name="totale">Valore iniziale della proprietà totale.</param>
+</member><member name="P:ParsecPro.DettaglioFattura.idDettaglioFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.fkFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.collocazioneUtenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.totaleImponibile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.IVA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.totale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.cig">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.cup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.PRO_FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioFattura.PRO_FatturaElettronicaReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.DettaglioFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.DettaglioRegistroProtocollo.CreateDettaglioRegistroProtocollo(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto DettaglioRegistroProtocollo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idRegistroProtocollo">Valore iniziale della proprietà IdRegistroProtocollo.</param>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.IdRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.tRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.tRegistrazioneReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.tRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DettaglioRegistroProtocollo.tRegistroProtocolloReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.DettaglioRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.DocumentiAtti.CreateDocumentiAtti(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto DocumentiAtti.
+ </summary>
+	<param name="docId">Valore iniziale della proprietà docId.</param>
+</member><member name="P:ParsecPro.DocumentiAtti.docIdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentiAtti.docNumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentiAtti.docDataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentiAtti.docId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.DocumentiAtti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Documento.CreateDocumento(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto Documento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.Documento.Impronta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Documento.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Documento.NomeFileOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Documento.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Documento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Documento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.DocumentoConservazione.CreateDocumentoConservazione(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto DocumentoConservazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.DocumentoConservazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentoConservazione.IdPacchettoVersamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentoConservazione.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.DocumentoConservazione.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.DocumentoConservazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Email.CreateEmail(System.Int64,System.Int32,System.String,System.Int32,System.DateTime,System.Boolean,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto Email.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idCasella">Valore iniziale della proprietà IdCasella.</param>
+	<param name="destinatari">Valore iniziale della proprietà Destinatari.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="dataInvio">Valore iniziale della proprietà DataInvio.</param>
+	<param name="inviata">Valore iniziale della proprietà Inviata.</param>
+	<param name="conservabile">Valore iniziale della proprietà Conservabile.</param>
+</member><member name="P:ParsecPro.Email.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.IdCasella">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Destinatari">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Corpo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.DataInvio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Inviata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Cancellata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.IdUtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.NomeFileEml">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.MessaggioId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.TipoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Email.Conservabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.EmailArrivo.CreateEmailArrivo(System.Int64,System.Int32,System.String,System.String,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto EmailArrivo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idCasella">Valore iniziale della proprietà IdCasella.</param>
+	<param name="idEmail">Valore iniziale della proprietà IdEmail.</param>
+	<param name="mittente">Valore iniziale della proprietà Mittente.</param>
+	<param name="tipo">Valore iniziale della proprietà Tipo.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="dataArrivo">Valore iniziale della proprietà DataArrivo.</param>
+	<param name="lockata">Valore iniziale della proprietà Lockata.</param>
+	<param name="lavorata">Valore iniziale della proprietà Lavorata.</param>
+	<param name="cancellata">Valore iniziale della proprietà Cancellata.</param>
+	<param name="ricevuta">Valore iniziale della proprietà Ricevuta.</param>
+	<param name="letta">Valore iniziale della proprietà Letta.</param>
+</member><member name="P:ParsecPro.EmailArrivo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdCasella">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Mittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Tipo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.NomeFileEml">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.DataArrivo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Lockata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdUtenteLock">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Lavorata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.DataLavorazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdUtenteLavorazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Cancellata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdUtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Ricevuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.DataRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdentificativoUnivoco">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.Letta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailArrivo.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.EmailArrivo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.EmailCancellata.CreateEmailCancellata(System.Int64,System.String,System.String,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto EmailCancellata.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="mittente">Valore iniziale della proprietà Mittente.</param>
+	<param name="destinatario">Valore iniziale della proprietà Destinatario.</param>
+	<param name="dataEmail">Valore iniziale della proprietà DataEmail.</param>
+	<param name="data">Valore iniziale della proprietà Data.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecPro.EmailCancellata.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.Mittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.Destinatario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.DataEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.Cancellata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EmailCancellata.IdUtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.EmailCancellata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Esercizio.CreateEsercizio(System.Int32,System.Int32,System.Boolean,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto Esercizio.
+ </summary>
+	<param name="anno">Valore iniziale della proprietà Anno.</param>
+	<param name="tipoRegistro">Valore iniziale della proprietà TipoRegistro.</param>
+	<param name="chiuso">Valore iniziale della proprietà Chiuso.</param>
+	<param name="contatoreProtocollo">Valore iniziale della proprietà ContatoreProtocollo.</param>
+</member><member name="P:ParsecPro.Esercizio.Anno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Esercizio.TipoRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Esercizio.Chiuso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Esercizio.Corrente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Esercizio.ContatoreProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Esercizio.Bloccato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Esercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.EsportazioneFatturaTINN.CreateEsportazioneFatturaTINN(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto EsportazioneFatturaTINN.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.NomeFileFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.DataProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.NumeroFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.DataFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.StatoFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.Inviata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.EsportazioneFatturaTINN.IdFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.EsportazioneFatturaTINN">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.FatturaElettronica.CreateFatturaElettronica(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto FatturaElettronica.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="identificativoSdI">Valore iniziale della proprietà IdentificativoSdI.</param>
+	<param name="idMessaggioSdI">Valore iniziale della proprietà IdMessaggioSdI.</param>
+	<param name="versioneFattura">Valore iniziale della proprietà VersioneFattura.</param>
+	<param name="denominazioneFornitore">Valore iniziale della proprietà DenominazioneFornitore.</param>
+	<param name="partitaIvaFornitore">Valore iniziale della proprietà PartitaIvaFornitore.</param>
+	<param name="comuneFornitore">Valore iniziale della proprietà ComuneFornitore.</param>
+	<param name="oggetto">Valore iniziale della proprietà Oggetto.</param>
+</member><member name="P:ParsecPro.FatturaElettronica.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NumeroFatture">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.CodiceFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.IdentificativoSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.IdMessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.VersioneFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.DenominazioneFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.PartitaIvaFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.ComuneFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NomeFileMetadati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.DenominazioneDestinatario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.CodiceIpaDestinatario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.ElencoCig">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.IndirizzoFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NumeroCivicoFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.CapFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.EmailFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.CognomeFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NomeFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.ProvinciaFornitore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.Causale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.MessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.MessaggioSdIReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.StatoFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.StatoFatturaElettronicaReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.NotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronica.PRO_DettaglioFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.FatturaElettronicaAttiva.CreateFatturaElettronicaAttiva(System.Int32,System.String)">
+	<summary>
+ Creare un nuovo oggetto FatturaElettronicaAttiva.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="conservabile">Valore iniziale della proprietà Conservabile.</param>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.VersioneFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.NumeroFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.DataFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.TipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.DenominazioneCliente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.PIVACliente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.CFCliente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.Valuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.TotaleFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.DataProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.NomeFileFattura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.Conservabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.PRO_StatoFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.FatturaElettronicaAttiva.PRO_StatoFatturaElettronicaReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.FatturaElettronicaAttiva">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Gruppo.CreateGruppo(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto Gruppo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="abilitato">Valore iniziale della proprietà Abilitato.</param>
+</member><member name="P:ParsecPro.Gruppo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Gruppo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Gruppo.DataInizioValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Gruppo.DataFineValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Gruppo.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.GruppoUtente.CreateGruppoUtente(System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto GruppoUtente.
+ </summary>
+	<param name="idGruppo">Valore iniziale della proprietà IdGruppo.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecPro.GruppoUtente.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.GruppoUtente.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.IstanzaWKF.CreateIstanzaWKF(System.Int64,System.Int32,System.Int16)">
+	<summary>
+ Creare un nuovo oggetto IstanzaWKF.
+ </summary>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idStato">Valore iniziale della proprietà IdStato.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+</member><member name="P:ParsecPro.IstanzaWKF.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.IstanzaWKF.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.IstanzaWKF.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.IstanzaWKF">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.LockCasellaEmail.CreateLockCasellaEmail(System.Int64,System.Int32,System.Int32,System.DateTime,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto LockCasellaEmail.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idEmail">Valore iniziale della proprietà IdEmail.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="inizio">Valore iniziale della proprietà Inizio.</param>
+	<param name="stato">Valore iniziale della proprietà Stato.</param>
+</member><member name="P:ParsecPro.LockCasellaEmail.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockCasellaEmail.IdEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockCasellaEmail.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockCasellaEmail.Inizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockCasellaEmail.Fine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockCasellaEmail.Stato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.LockCasellaEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.LockRegistrazione.CreateLockRegistrazione(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto LockRegistrazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="annoProtocollo">Valore iniziale della proprietà AnnoProtocollo.</param>
+	<param name="numeroProtocollo">Valore iniziale della proprietà NumeroProtocollo.</param>
+	<param name="tipoProtocollo">Valore iniziale della proprietà TipoProtocollo.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecPro.LockRegistrazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockRegistrazione.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockRegistrazione.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockRegistrazione.TipoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.LockRegistrazione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.LockRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.MessaggioSdI.CreateMessaggioSdI(System.Int32,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto MessaggioSdI.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="nomefile">Valore iniziale della proprietà Nomefile.</param>
+	<param name="dataRicezioneInvio">Valore iniziale della proprietà DataRicezioneInvio.</param>
+	<param name="direzione">Valore iniziale della proprietà Direzione.</param>
+</member><member name="P:ParsecPro.MessaggioSdI.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.IdEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.Nomefile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.PercorsoRelativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.DataRicezioneInvio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.Direzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.NotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.MessaggioSdI.FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.MessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.NotificaSdI.CreateNotificaSdI(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto NotificaSdI.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idMessaggioSdI">Valore iniziale della proprietà IdMessaggioSdI.</param>
+	<param name="idFatturaElettronica">Valore iniziale della proprietà IdFatturaElettronica.</param>
+	<param name="idTipologiaNotificaSdI">Valore iniziale della proprietà IdTipologiaNotificaSdI.</param>
+</member><member name="P:ParsecPro.NotificaSdI.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.IdMessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.IdFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.IdTipologiaNotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.TipologiaNotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.TipologiaNotificaSdIReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.MessaggioSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.MessaggioSdIReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.NotificaSdI.FatturaElettronicaReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.NotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Oggetto.CreateOggetto(System.Int32,System.String)">
+	<summary>
+ Creare un nuovo oggetto Oggetto.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="contenuto">Valore iniziale della proprietà Contenuto.</param>
+</member><member name="P:ParsecPro.Oggetto.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Oggetto.Contenuto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Oggetto.IdClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Oggetto.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Oggetto.IdProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Procedimento.CreateProcedimento(System.Int32,System.String,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Creare un nuovo oggetto Procedimento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="codiceStruttura">Valore iniziale della proprietà CodiceStruttura.</param>
+	<param name="idModuloTipoProvvedimentoFinale">Valore iniziale della proprietà IdModuloTipoProvvedimentoFinale.</param>
+	<param name="data">Valore iniziale della proprietà Data.</param>
+</member><member name="P:ParsecPro.Procedimento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.IdModuloTipoProvvedimentoFinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.IdTipoProvvedimentoFinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.Tempo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.RiferimentoNormativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.IdCaratteristicaProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Procedimento.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Procedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.ProcedimentoRegistrazione.CreateProcedimentoRegistrazione(System.Int32,System.Int64,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Creare un nuovo oggetto ProcedimentoRegistrazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="tipoRegistrazioneA">Valore iniziale della proprietà TipoRegistrazioneA.</param>
+	<param name="numeroProtocolloA">Valore iniziale della proprietà NumeroProtocolloA.</param>
+	<param name="annoProtocolloA">Valore iniziale della proprietà AnnoProtocolloA.</param>
+	<param name="dataProtocolloA">Valore iniziale della proprietà DataProtocolloA.</param>
+	<param name="idStatoA">Valore iniziale della proprietà IdStatoA.</param>
+	<param name="idProcedimento">Valore iniziale della proprietà IdProcedimento.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="data">Valore iniziale della proprietà Data.</param>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.TipoRegistrazioneA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.NumeroProtocolloA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.AnnoProtocolloA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.DataProtocolloA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.IdStatoA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.TipoRegistrazioneP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.NumeroProtocolloP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.AnnoProtocolloP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.DataProtocolloP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.IdProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.IdStatoP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ProcedimentoRegistrazione.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.ProcedimentoRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.ReferenteEsterno.CreateReferenteEsterno(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto ReferenteEsterno.
+ </summary>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="perConoscenza">Valore iniziale della proprietà PerConoscenza.</param>
+</member><member name="P:ParsecPro.ReferenteEsterno.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.PerConoscenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.LogSpid">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteEsterno.RegistrazioneReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.ReferenteEsterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.ReferenteInterno.CreateReferenteInterno(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto ReferenteInterno.
+ </summary>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="perConoscenza">Valore iniziale della proprietà PerConoscenza.</param>
+	<param name="mittenteDestinatario">Valore iniziale della proprietà MittenteDestinatario.</param>
+	<param name="inviaEmail">Valore iniziale della proprietà InviaEmail.</param>
+</member><member name="P:ParsecPro.ReferenteInterno.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.PerConoscenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.MittenteDestinatario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.Iter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.LogSpid">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.InviaEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInterno.RegistrazioneReference">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.ReferenteInterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.ReferenteInternoDefault.CreateReferenteInternoDefault(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto ReferenteInternoDefault.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codiceStruttura">Valore iniziale della proprietà CodiceStruttura.</param>
+	<param name="arrivo">Valore iniziale della proprietà Arrivo.</param>
+	<param name="partenza">Valore iniziale della proprietà Partenza.</param>
+	<param name="interno">Valore iniziale della proprietà Interno.</param>
+	<param name="mittente">Valore iniziale della proprietà Mittente.</param>
+	<param name="iter">Valore iniziale della proprietà Iter.</param>
+	<param name="inviaEmail">Valore iniziale della proprietà InviaEmail.</param>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Arrivo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Partenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Interno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Mittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.Iter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.ReferenteInternoDefault.InviaEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.ReferenteInternoDefault">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Registrazione.CreateRegistrazione(System.Int32,System.Boolean,System.Boolean,System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ Creare un nuovo oggetto Registrazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="modificato">Valore iniziale della proprietà Modificato.</param>
+	<param name="annullato">Valore iniziale della proprietà Annullato.</param>
+	<param name="tipoRegistrazione">Valore iniziale della proprietà TipoRegistrazione.</param>
+	<param name="inviatoDaFascicolo">Valore iniziale della proprietà InviatoDaFascicolo.</param>
+	<param name="conservabile">Valore iniziale della proprietà Conservabile.</param>
+</member><member name="P:ParsecPro.Registrazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataImmissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Riservato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Modificato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Annullato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.PresentiModifiche">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataOraAnnullamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdUtenteAnnullamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.UtenteUsernameAnnullamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.TipoRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataOraRicezioneInvio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdTipoDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdTipoRicezione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.ProtocolloMittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.NumeroAllegati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.NumeroProtocolloRiscontro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.DataImmissioneRiscontro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdSessioneEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.NumeroEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdUtenteEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.UtenteEmergenzaUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.NoteInterne">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Spid">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.AnticipatoViaFax">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.ElencoReferentiInterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.ElencoReferentiEsterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.IdDocumentoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.TipologiaAllegatoPrimario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.CodiceSoggettoArca">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.InviatoDaFascicolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.Conservabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.regIdEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.tRegAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.tRegReferenteEsterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.tRegReferenteInterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Registrazione.PRO_DettaglioRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.RegistroProtocollo.CreateRegistroProtocollo(System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto RegistroProtocollo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà id.</param>
+	<param name="idUtente">Valore iniziale della proprietà idUtente.</param>
+</member><member name="P:ParsecPro.RegistroProtocollo.id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.dataRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.path">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.fileNameOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.fileNameFirmato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.conservato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.idPacchettoWS">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.tipologia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.daNumero">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.aNumero">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.daData">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.aData">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.idUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.dataCreazioneRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.RegistroProtocollo.PRO_DettaglioRegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.RegistroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.SessioneEmergenza.CreateSessioneEmergenza(System.Int32,System.Int32,System.String,System.String,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Creare un nuovo oggetto SessioneEmergenza.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codice">Valore iniziale della proprietà Codice.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="causa">Valore iniziale della proprietà Causa.</param>
+	<param name="dataOraInizio">Valore iniziale della proprietà DataOraInizio.</param>
+	<param name="dataOraFine">Valore iniziale della proprietà DataOraFine.</param>
+	<param name="numeroRegistrazioni">Valore iniziale della proprietà NumeroRegistrazioni.</param>
+	<param name="contatoreEmergenza">Valore iniziale della proprietà ContatoreEmergenza.</param>
+	<param name="ultimaRegistrazione">Valore iniziale della proprietà UltimaRegistrazione.</param>
+	<param name="logIdUtente">Valore iniziale della proprietà LogIdUtente.</param>
+	<param name="logDataOperazione">Valore iniziale della proprietà LogDataOperazione.</param>
+</member><member name="P:ParsecPro.SessioneEmergenza.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.Causa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.DataOraInizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.DataOraFine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.NumeroRegistrazioni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.ContatoreEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.UltimaRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SessioneEmergenza.LogDataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.SessioneEmergenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.SettorePrimoLivello.CreateSettorePrimoLivello(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto SettorePrimoLivello.
+ </summary>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+</member><member name="P:ParsecPro.SettorePrimoLivello.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SettorePrimoLivello.DescrizioneSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.SettorePrimoLivello.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.SettorePrimoLivello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.StatoFatturaElettronica.CreateStatoFatturaElettronica(System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto StatoFatturaElettronica.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codice">Valore iniziale della proprietà Codice.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecPro.StatoFatturaElettronica.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StatoFatturaElettronica.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StatoFatturaElettronica.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StatoFatturaElettronica.FatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StatoFatturaElettronica.PRO_FatturaElettronicaAttiva">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.StatoFatturaElettronica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Struttura.CreateStruttura(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto Struttura.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.Struttura.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.IdGerarchia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Qualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Responsabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.Localita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.CodiceIPA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Struttura.UfficioBilancio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.StrutturaEsterna.CreateStrutturaEsterna(System.Int32,System.String)">
+	<summary>
+ Creare un nuovo oggetto StrutturaEsterna.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="denominazione">Valore iniziale della proprietà Denominazione.</param>
+</member><member name="P:ParsecPro.StrutturaEsterna.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Denominazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Comune">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Indirizzo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.CAP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Provincia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.CodiceFiscalePartitaIva">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Telefono">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.Fax">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.CodiceIPA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.LivelloGerarchiaIPA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.InfoXML">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaEsterna.LocalitaEstera">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.StrutturaEsterna">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.StrutturaOggetto.CreateStrutturaOggetto(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto StrutturaOggetto.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idOggetto">Valore iniziale della proprietà IdOggetto.</param>
+	<param name="idStruttura">Valore iniziale della proprietà IdStruttura.</param>
+	<param name="codiceStruttura">Valore iniziale della proprietà CodiceStruttura.</param>
+</member><member name="P:ParsecPro.StrutturaOggetto.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaOggetto.IdOggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaOggetto.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.StrutturaOggetto.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.StrutturaOggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TipoDocumento.CreateTipoDocumento(System.Int32,System.String)">
+	<summary>
+ Creare un nuovo oggetto TipoDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecPro.TipoDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TipoDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TipoEmail.CreateTipoEmail(System.Int64,System.String)">
+	<summary>
+ Creare un nuovo oggetto TipoEmail.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecPro.TipoEmail.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoEmail.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TipoEmail">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TipologiaNotificaSdI.CreateTipologiaNotificaSdI(System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto TipologiaNotificaSdI.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codice">Valore iniziale della proprietà Codice.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecPro.TipologiaNotificaSdI.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipologiaNotificaSdI.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipologiaNotificaSdI.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipologiaNotificaSdI.NotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TipologiaNotificaSdI">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TipologiaRegistrazione.CreateTipologiaRegistrazione(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto TipologiaRegistrazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.TipologiaRegistrazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipologiaRegistrazione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipologiaRegistrazione.Colore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TipologiaRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TipoRicezioneInvio.CreateTipoRicezioneInvio(System.Int32,System.Int32,System.String,System.Int32,System.String,System.DateTime)">
+	<summary>
+ Creare un nuovo oggetto TipoRicezioneInvio.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codice">Valore iniziale della proprietà Codice.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="logIdUtente">Valore iniziale della proprietà LogIdUtente.</param>
+	<param name="logUtente">Valore iniziale della proprietà LogUtente.</param>
+	<param name="logDataRegistrazione">Valore iniziale della proprietà LogDataRegistrazione.</param>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.LogUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TipoRicezioneInvio.LogDataRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TipoRicezioneInvio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TitolarioClassificazione.CreateTitolarioClassificazione(System.Int32)">
+	<summary>
+ Creare un nuovo oggetto TitolarioClassificazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecPro.TitolarioClassificazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.IdGerarchia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.Codifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.CodStrutturaCompetente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.LogUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.LogDataRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.LogSPID">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazione.TipoOper">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TitolarioClassificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.TitolarioClassificazioneLivello.CreateTitolarioClassificazioneLivello(System.Int32,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto TitolarioClassificazioneLivello.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="codice">Valore iniziale della proprietà Codice.</param>
+	<param name="idPadre">Valore iniziale della proprietà IdPadre.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="carattereSeparatore">Valore iniziale della proprietà CarattereSeparatore.</param>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.UrlIcona">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.TitolarioClassificazioneLivello.CarattereSeparatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.TitolarioClassificazioneLivello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.UnitaImmobiliare.CreateUnitaImmobiliare(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto UnitaImmobiliare.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="beneUnitario">Valore iniziale della proprietà BeneUnitario.</param>
+	<param name="rapportoUtenza">Valore iniziale della proprietà RapportoUtenza.</param>
+</member><member name="P:ParsecPro.UnitaImmobiliare.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.UnitaImmobiliare.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.UnitaImmobiliare.BeneUnitario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.UnitaImmobiliare.RapportoUtenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.UnitaImmobiliare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Utente.CreateUtente(System.Int32,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto Utente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="username">Valore iniziale della proprietà Username.</param>
+	<param name="cognome">Valore iniziale della proprietà Cognome.</param>
+</member><member name="P:ParsecPro.Utente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.Username">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.Cognome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.SuperUser">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.LogTipoOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Utente.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.VisibilitaDocumento.CreateVisibilitaDocumento(System.Int64,System.Int32,System.Int16,System.Int32,System.Int32,System.Boolean,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Creare un nuovo oggetto VisibilitaDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+	<param name="idEntita">Valore iniziale della proprietà IdEntita.</param>
+	<param name="tipoEntita">Valore iniziale della proprietà TipoEntita.</param>
+	<param name="abilitaCancellaEntita">Valore iniziale della proprietà AbilitaCancellaEntita.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="logDataOperazione">Valore iniziale della proprietà LogDataOperazione.</param>
+	<param name="logIdUtente">Valore iniziale della proprietà LogIdUtente.</param>
+</member><member name="P:ParsecPro.VisibilitaDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.IdEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.TipoEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.AbilitaCancellaEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.LogDataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.VisibilitaDocumento.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecPro.Protocollo.CreateProtocollo(System.Int32,System.String,System.Int32,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Creare un nuovo oggetto Protocollo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="numeroFormattato">Valore iniziale della proprietà NumeroFormattato.</param>
+	<param name="numeroProtocollo">Valore iniziale della proprietà NumeroProtocollo.</param>
+	<param name="dataImmissione">Valore iniziale della proprietà DataImmissione.</param>
+	<param name="descrizioneTipologiaRegistristrazione">Valore iniziale della proprietà DescrizioneTipologiaRegistristrazione.</param>
+	<param name="descrizioneModificatoAnnullato">Valore iniziale della proprietà DescrizioneModificatoAnnullato.</param>
+	<param name="oggetto">Valore iniziale della proprietà Oggetto.</param>
+	<param name="elencoReferentiEsterni">Valore iniziale della proprietà ElencoReferentiEsterni.</param>
+	<param name="elencoReferentiInterni">Valore iniziale della proprietà ElencoReferentiInterni.</param>
+	<param name="descrizioneTipologiaDocumento">Valore iniziale della proprietà DescrizioneTipologiaDocumento.</param>
+	<param name="descrizioneTipoRicezioneInvio">Valore iniziale della proprietà DescrizioneTipoRicezioneInvio.</param>
+	<param name="note">Valore iniziale della proprietà Note.</param>
+	<param name="classificazione">Valore iniziale della proprietà Classificazione.</param>
+	<param name="utenteUsername">Valore iniziale della proprietà UtenteUsername.</param>
+</member><member name="P:ParsecPro.Protocollo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.NumeroFormattato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.DataImmissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.DescrizioneTipologiaRegistristrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.DescrizioneModificatoAnnullato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.ElencoReferentiEsterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.ElencoReferentiInterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.DescrizioneTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.DescrizioneTipoRicezioneInvio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.Classificazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Protocollo.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecPro.Protocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecPro.Interoperabilita.Segnatura.Intestazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Segnatura.Riferimenti">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Segnatura.Descrizione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Segnatura.lang">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Segnatura">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.PrimaRegistrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.OraRegistrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Origine">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Destinazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.PerConoscenza">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Risposta">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Riservato">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.InterventoOperatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.RiferimentoDocumentiCartacei">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.RiferimentiTelematici">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Oggetto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Intestazione.Note">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Intestazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Identificatore.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Identificatore.CodiceAOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Identificatore.CodiceRegistro">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Identificatore.NumeroRegistrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Identificatore.DataRegistrazione">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.PrimaRegistrazione.Identificatore">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.PrimaRegistrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.OraRegistrazione.tempo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.OraRegistrazione.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.OraRegistrazione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.OraRegistrazioneTempo.locale">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.OraRegistrazioneTempo.rupa">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.OraRegistrazioneTempo.NMTOKEN">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.OraRegistrazioneTempo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Origine.IndirizzoTelematico">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Origine.Mittente">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Origine">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.IndirizzoTelematico.tipo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.IndirizzoTelematico.note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.IndirizzoTelematico.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.IndirizzoTelematico">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.IndirizzoTelematicoTipo.smtp">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.IndirizzoTelematicoTipo.uri">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.IndirizzoTelematicoTipo.NMTOKEN">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.IndirizzoTelematicoTipo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Mittente.Amministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Mittente.AOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Mittente.Privato">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Mittente">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Amministrazione.Denominazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Amministrazione.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Amministrazione.Items">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Amministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fax.note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fax.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Fax">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.IndirizzoPostale.Items">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.IndirizzoPostale.ItemsElementName">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.IndirizzoPostale">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Comune.codiceISTAT">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Comune.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Comune">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Toponimo.dug">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Toponimo.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Toponimo">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.CAP">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Civico">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Comune">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Denominazione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Nazione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Provincia">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType1.Toponimo">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ItemsChoiceType1">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Persona.Items">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Persona.ItemsElementName">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Persona.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Persona.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Persona.rife">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Persona">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType.CodiceFiscale">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType.Cognome">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType.Denominazione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType.Nome">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ItemsChoiceType.Titolo">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ItemsChoiceType">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Ruolo.Denominazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Ruolo.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Ruolo.Persona">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Ruolo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Telefono.note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Telefono.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Telefono">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.UnitaOrganizzativa.Denominazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.UnitaOrganizzativa.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.UnitaOrganizzativa.Items">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.UnitaOrganizzativa.tipo">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.UnitaOrganizzativa">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.UnitaOrganizzativaTipo.permanente">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.UnitaOrganizzativaTipo.temporanea">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.UnitaOrganizzativaTipo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AOO.Denominazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AOO.CodiceAOO">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.AOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.DenominazioneImpresa">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.PartitaIva">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.Nome">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.Cognome">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.CodiceFiscale">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.IndirizzoTelematico">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.IndirizzoPostale">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.Telefono">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Privato.tipo">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Privato">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.PrivatoTipo.cittadino">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.PrivatoTipo.impresa">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.PrivatoTipo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinazione.IndirizzoTelematico">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinazione.Destinatario">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinazione.confermaRicezione">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Destinazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinatario.Items">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinatario.IndirizzoTelematico">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinatario.Telefono">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinatario.Fax">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Destinatario.IndirizzoPostale">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Destinatario">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DestinazioneConfermaRicezione.si">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DestinazioneConfermaRicezione.no">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.DestinazioneConfermaRicezione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.PerConoscenza.IndirizzoTelematico">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.PerConoscenza.Destinatario">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.PerConoscenza.confermaRicezione">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.PerConoscenza">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.PerConoscenzaConfermaRicezione.si">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.PerConoscenzaConfermaRicezione.no">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.PerConoscenzaConfermaRicezione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Risposta.IndirizzoTelematico">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Risposta">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.RiferimentoDocumentiCartacei">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.RiferimentiTelematici">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Classifica.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Classifica.CodiceAOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Classifica.Denominazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Classifica.Livello">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Livello.nome">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Livello.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Livello">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.CodiceAOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.TipoContestoProcedurale">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.Oggetto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.DataAvvio">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.Note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ContestoProcedurale.rife">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ContestoProcedurale">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Messaggio.Item">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Messaggio.PrimaRegistrazione">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Messaggio">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.CodiceAOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.TipoProcedimento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.Oggetto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.Responsabile">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.DataAvvio">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.DataTermine">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.Note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Procedimento.rife">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Procedimento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Responsabile.Persona">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Responsabile">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Descrizione.Item">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Descrizione.Allegati">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Descrizione.Note">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Descrizione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.CollocazioneTelematica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.Impronta">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.TitoloDocumento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.PrimaRegistrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.TipoDocumento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.Oggetto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.NumeroPagine">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.Note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.rife">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.nome">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.tipoMIME">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Documento.tipoRiferimento">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Documento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Impronta.algoritmo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Impronta.codifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Impronta.Text">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Impronta">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ImprontaAlgoritmo.SHA1">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ImprontaAlgoritmo">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ImprontaCodifica.base64">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ImprontaCodifica">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DocumentoTipoRiferimento.MIME">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DocumentoTipoRiferimento.DIME">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DocumentoTipoRiferimento.telematico">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.DocumentoTipoRiferimento.cartaceo">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.DocumentoTipoRiferimento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.TestoDelMessaggio.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.TestoDelMessaggio.tipoMIME">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.TestoDelMessaggio.tipoRiferimento">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.TestoDelMessaggio">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.TestoDelMessaggioTipoRiferimento.MIME">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.TestoDelMessaggioTipoRiferimento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.CodiceAmministrazione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.CodiceAOO">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.Oggetto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.Identificativo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.Classifica">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.Note">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.Items">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.id">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Fascicolo.rife">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Fascicolo">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.SegnaturaVersione.Item20010507">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.SegnaturaVersione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Riferimenti.Items">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Riferimenti">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.Allegati.Items">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.Allegati">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.MessaggioRicevuto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.Riferimenti">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.Descrizione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.versione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.ConfermaRicezione.lang">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ConfermaRicezione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.MessaggioRicevuto.Items">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.MessaggioRicevuto">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.ConfermaRicezioneVersione.Item20010507">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.ConfermaRicezioneVersione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.MessaggioRicevuto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.Riferimenti">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.Descrizione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.versione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AggiornamentoConferma.lang">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.AggiornamentoConferma">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.AggiornamentoConfermaVersione.Item20010507">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.AggiornamentoConfermaVersione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.NotificaEccezione.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.NotificaEccezione.MessaggioRicevuto">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.NotificaEccezione.Motivo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.NotificaEccezione.versione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.NotificaEccezione.lang">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.NotificaEccezione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.NotificaEccezioneVersione.Item20010507">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.NotificaEccezioneVersione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AnnullamentoProtocollazione.Identificatore">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AnnullamentoProtocollazione.Motivo">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AnnullamentoProtocollazione.Provvedimento">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AnnullamentoProtocollazione.versione">
+	<remarks/>
+</member><member name="P:ParsecPro.Interoperabilita.AnnullamentoProtocollazione.lang">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.AnnullamentoProtocollazione">
+	<remarks/>
+</member><member name="F:ParsecPro.Interoperabilita.AnnullamentoProtocollazioneVersione.Item20010507">
+	<remarks/>
+</member><member name="T:ParsecPro.Interoperabilita.AnnullamentoProtocollazioneVersione">
+	<remarks/>
+</member>
+</members>
+</doc>

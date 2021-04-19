@@ -1,0 +1,2956 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ParsecWKF
+</name>
+</assembly>
+<members>
+<member name="P:ParsecWKF.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ParsecWKF.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ParsecWKF.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ParsecWKF.DataContextWKF.#ctor">
+	<summary>
+ Inizializza un nuovo oggetto DataContextWKF utilizzando la stringa di connessione trovata nella sezione 'DataContextWKF' del file di configurazione dell'applicazione.
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.#ctor(System.String)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextWKF.
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Inizializzare un nuovo oggetto DataContextWKF.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.RuoloRelUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.ParametroProcesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tStatiIstanzaTask">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tTaskIstanzaWorkFlow">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tVisualizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tModelloWorkflow">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Modulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tLockTask">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.ReferenteEsterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.StrutturaEsterna">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Ruolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.ProtocolloModelloWkf">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.TipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.ModelloDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.TipologiaContatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Collegamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.PraticheCollegate">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.PraticheEdilizie">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.TipoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.tIstanzaWorkflow">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.IstanzaPraticaOnline">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.PraticheCollegateSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.PraticheSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.TipoPraticaSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Segnalazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.DataContextWKF.Documento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToRuoloRelUtente(ParsecWKF.RuoloRelUtente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet RuoloRelUtente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToParametroProcesso(ParsecWKF.ParametroProcesso)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ParametroProcesso. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotStatiIstanzaTask(ParsecWKF.Stato)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tStatiIstanzaTask. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotTaskIstanzaWorkFlow(ParsecWKF.Task)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tTaskIstanzaWorkFlow. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotVisualizzazione(ParsecWKF.Visualizzazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tVisualizzazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotModelloWorkflow(ParsecWKF.Modello)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tModelloWorkflow. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToGruppo(ParsecWKF.Gruppo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Gruppo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToGruppoUtente(ParsecWKF.GruppoUtente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet GruppoUtente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToUtente(ParsecWKF.Utente)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Utente. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToVisibilitaDocumento(ParsecWKF.VisibilitaDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet VisibilitaDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToModulo(ParsecWKF.Modulo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Modulo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotLockTask(ParsecWKF.LockTask)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tLockTask. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToRegistrazione(ParsecWKF.Registrazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Registrazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToReferenteEsterno(ParsecWKF.ReferenteEsterno)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ReferenteEsterno. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToStrutturaEsterna(ParsecWKF.StrutturaEsterna)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet StrutturaEsterna. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToRuolo(ParsecWKF.Ruolo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Ruolo. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToProtocolloModelloWkf(ParsecWKF.ProtocolloModelloWkf)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ProtocolloModelloWkf. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToTipologiaRegistro(ParsecWKF.TipologiaRegistro)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TipologiaRegistro. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToStruttura(ParsecWKF.Struttura)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Struttura. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToAccertamento(ParsecWKF.Accertamento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Accertamento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToImpegnoSpesa(ParsecWKF.ImpegnoSpesa)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ImpegnoSpesa. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToLiquidazione(ParsecWKF.Liquidazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Liquidazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToModelloDocumento(ParsecWKF.ModelloDocumento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet ModelloDocumento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToTipologiaContatore(ParsecWKF.TipologiaContatore)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TipologiaContatore. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToCollegamento(ParsecWKF.Collegamento)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Collegamento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToPraticheCollegate(ParsecWKF.PraticheCollegate)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PraticheCollegate. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToPraticheEdilizie(ParsecWKF.PraticheEdilizie)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PraticheEdilizie. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToTipoPratica(ParsecWKF.TipoPratica)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TipoPratica. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddTotIstanzaWorkflow(ParsecWKF.Istanza)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet tIstanzaWorkflow. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToIstanzaPraticaOnline(ParsecWKF.IstanzaPraticaOnline)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet IstanzaPraticaOnline. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToPraticheCollegateSuap(ParsecWKF.PraticheCollegateSuap)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PraticheCollegateSuap. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToPraticheSuap(ParsecWKF.PraticheSuap)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet PraticheSuap. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToTipoPraticaSuap(ParsecWKF.TipoPraticaSuap)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet TipoPraticaSuap. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToSegnalazione(ParsecWKF.Segnalazione)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Segnalazione. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="M:ParsecWKF.DataContextWKF.AddToDocumento(ParsecWKF.AttoAmministrativo)">
+	<summary>
+ Metodo deprecato per l'aggiunta di un nuovo oggetto all'elemento EntitySet Documento. Utilizzare il metodo .Add della proprietà associata ObjectSet(Of T).
+ </summary>
+</member><member name="T:ParsecWKF.DataContextWKF">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Accertamento.CreateAccertamento(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Accertamento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+</member><member name="P:ParsecWKF.Accertamento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Importo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.NumeroAccertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.NumeroSubAccertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Categoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.Risorsa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.StanziamentoIniziale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.StanziamentoAssestato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.DisponibilitaResiduale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Accertamento.NumeroAttoAssunzioneOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.AttoAmministrativo.CreateAttoAmministrativo(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto AttoAmministrativo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="oggetto">Valore iniziale della proprietà Oggetto.</param>
+	<param name="riservato">Valore iniziale della proprietà Riservato.</param>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdUfficio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.ContatoreGenerale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.DataProposta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Link">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.ContatoreStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.Riservato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.AttoAmministrativo.IdTipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.AttoAmministrativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Collegamento.CreateCollegamento(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Collegamento.
+ </summary>
+	<param name="tipoRegistrazione1">Valore iniziale della proprietà TipoRegistrazione1.</param>
+	<param name="numeroProtocollo1">Valore iniziale della proprietà NumeroProtocollo1.</param>
+	<param name="annoProtocollo1">Valore iniziale della proprietà AnnoProtocollo1.</param>
+	<param name="tipoRegistrazione2">Valore iniziale della proprietà TipoRegistrazione2.</param>
+	<param name="numeroProtocollo2">Valore iniziale della proprietà NumeroProtocollo2.</param>
+	<param name="annoProtocollo2">Valore iniziale della proprietà AnnoProtocollo2.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecWKF.Collegamento.TipoRegistrazione1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.NumeroProtocollo1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.AnnoProtocollo1">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.TipoRegistrazione2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.NumeroProtocollo2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.AnnoProtocollo2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Collegamento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Collegamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Gruppo.CreateGruppo(System.Int32,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Gruppo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="abilitato">Valore iniziale della proprietà Abilitato.</param>
+</member><member name="P:ParsecWKF.Gruppo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Gruppo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Gruppo.DataInizioValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Gruppo.DataFineValidita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Gruppo.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Gruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.GruppoUtente.CreateGruppoUtente(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto GruppoUtente.
+ </summary>
+	<param name="idGruppo">Valore iniziale della proprietà IdGruppo.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+</member><member name="P:ParsecWKF.GruppoUtente.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.GruppoUtente.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.GruppoUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.ImpegnoSpesa.CreateImpegnoSpesa(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto ImpegnoSpesa.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Importo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.NumeroImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.NumeroSubImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Funzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Servizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.Intervento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.StanziamentoIniziale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.StanziamentoAssestato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.DisponibilitaResiduale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ImpegnoSpesa.NumeroAttoAssunzioneOriginale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Istanza.CreateIstanza(System.Int64,System.String,System.Int32,System.DateTime,System.DateTime,System.Int16,System.Int16,System.Boolean,System.Int64,System.Int32,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Istanza.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="riferimento">Valore iniziale della proprietà Riferimento.</param>
+	<param name="idStato">Valore iniziale della proprietà IdStato.</param>
+	<param name="dataInserimento">Valore iniziale della proprietà DataInserimento.</param>
+	<param name="dataScadenza">Valore iniziale della proprietà DataScadenza.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+	<param name="idModello">Valore iniziale della proprietà IdModello.</param>
+	<param name="indirizzatoStruttura">Valore iniziale della proprietà IndirizzatoStruttura.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="contatoreGenerale">Valore iniziale della proprietà ContatoreGenerale.</param>
+	<param name="fileIter">Valore iniziale della proprietà FileIter.</param>
+	<param name="cancellato">Valore iniziale della proprietà Cancellato.</param>
+	<param name="visibile">Valore iniziale della proprietà Visibile.</param>
+</member><member name="P:ParsecWKF.Istanza.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.Riferimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.DataInserimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.DataScadenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.DataEsecuzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IdModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IndirizzatoStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.ContatoreGenerale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.FileIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.Cancellato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.UtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.Ufficio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.Visibile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Istanza.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Istanza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.IstanzaPraticaOnline.CreateIstanzaPraticaOnline(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Crea un nuovo oggetto IstanzaPraticaOnline.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="numeroPratica">Valore iniziale della proprietà NumeroPratica.</param>
+	<param name="idProcedimento">Valore iniziale della proprietà IdProcedimento.</param>
+	<param name="termineProcedimento">Valore iniziale della proprietà TermineProcedimento.</param>
+	<param name="codiceStruttura">Valore iniziale della proprietà CodiceStruttura.</param>
+	<param name="nomeFileIter">Valore iniziale della proprietà NomeFileIter.</param>
+	<param name="idRichiedente">Valore iniziale della proprietà IdRichiedente.</param>
+	<param name="tipologiaRichiedente">Valore iniziale della proprietà TipologiaRichiedente.</param>
+	<param name="idStato">Valore iniziale della proprietà IdStato.</param>
+	<param name="numeroProtocollo">Valore iniziale della proprietà NumeroProtocollo.</param>
+	<param name="annoProtocollo">Valore iniziale della proprietà AnnoProtocollo.</param>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="dataPresentazione">Valore iniziale della proprietà DataPresentazione.</param>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.NumeroPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.IdProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.TermineProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.CodiceStruttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.NomeFileIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.Catasto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.ComuneCatasto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.SezioneUrbana">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.Foglio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.Particella">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.Subalterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.IdRichiedente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.IdCommittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.TipologiaRichiedente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.TipologiaCommittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.AnnoProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.IstanzaPraticaOnline.DataPresentazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.IstanzaPraticaOnline">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Liquidazione.CreateLiquidazione(System.Int32,System.Int32,System.Int32,System.Int64,System.Int32,System.Decimal,System.Int32,System.Int32,System.Decimal,System.String,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Liquidazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idImpegno">Valore iniziale della proprietà IdImpegno.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="capitolo">Valore iniziale della proprietà Capitolo.</param>
+	<param name="annoImpegno">Valore iniziale della proprietà AnnoImpegno.</param>
+	<param name="importoImpegno">Valore iniziale della proprietà ImportoImpegno.</param>
+	<param name="annoEsercizio">Valore iniziale della proprietà AnnoEsercizio.</param>
+	<param name="numero">Valore iniziale della proprietà Numero.</param>
+	<param name="importoLiquidato">Valore iniziale della proprietà ImportoLiquidato.</param>
+	<param name="note">Valore iniziale della proprietà Note.</param>
+	<param name="ordinale">Valore iniziale della proprietà Ordinale.</param>
+</member><member name="P:ParsecWKF.Liquidazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.IdImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Capitolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Articolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.NumeroImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.NumeroSubImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.AnnoImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.ImportoImpegno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Disponibilita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.AnnoEsercizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Numero">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Mandato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.ImportoLiquidato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.ImportoDaLiquidare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Funzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Servizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Intervento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Nominativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.CFPIVA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Norma">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Modalita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.ModalitaPagamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.IBAN">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.CIG">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.CUP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.DURC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Liquidazione.Quietanzante">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.LockTask.CreateLockTask(System.Int64,System.Int32,System.DateTime,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto LockTask.
+ </summary>
+	<param name="idTask">Valore iniziale della proprietà IdTask.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="dataInizio">Valore iniziale della proprietà DataInizio.</param>
+	<param name="valore">Valore iniziale della proprietà Valore.</param>
+</member><member name="P:ParsecWKF.LockTask.IdTask">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.LockTask.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.LockTask.DataInizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.LockTask.DataFine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.LockTask.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.LockTask">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Modello.CreateModello(System.Int16,System.String,System.Int16,System.Int16,System.DateTime,System.Int32,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Modello.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="riferimentoModello">Valore iniziale della proprietà RiferimentoModello.</param>
+	<param name="riferimentoModulo">Valore iniziale della proprietà RiferimentoModulo.</param>
+	<param name="dataInserimento">Valore iniziale della proprietà DataInserimento.</param>
+	<param name="utenteInserimento">Valore iniziale della proprietà UtenteInserimento.</param>
+	<param name="cancellato">Valore iniziale della proprietà Cancellato.</param>
+</member><member name="P:ParsecWKF.Modello.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.RiferimentoModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.RiferimentoModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.DataInserimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.UtenteInserimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.Cancellato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.UtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.NomeFile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.NomeFileXPDL">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.IdMetaModello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modello.IdModuloDestinazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Modello">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.ModelloDocumento.CreateModelloDocumento(System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto ModelloDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="obbligoAllegato">Valore iniziale della proprietà ObbligoAllegato.</param>
+	<param name="pubblicazioneLiq">Valore iniziale della proprietà PubblicazioneLiq.</param>
+</member><member name="P:ParsecWKF.ModelloDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.DataInizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.DataFine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Disabilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Path">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.IdTipologiaSeduta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Proposta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.ImpegnoSpesa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Pubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Liquidazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.IdModelloAdottato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.DirName">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.FileName">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.FileNameNuovoDoc">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.IdIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.Accertamento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.ObbligoAllegato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ModelloDocumento.PubblicazioneLiq">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.ModelloDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Modulo.CreateModulo(System.Int32,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto Modulo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="homePage">Valore iniziale della proprietà HomePage.</param>
+	<param name="homePageInterna">Valore iniziale della proprietà HomePageInterna.</param>
+	<param name="abilitato">Valore iniziale della proprietà Abilitato.</param>
+</member><member name="P:ParsecWKF.Modulo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.HomePage">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.HomePageInterna">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.ColoreSfondo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.Abilitato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.Prefisso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.VersioneDb">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Modulo.Image">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Modulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.ParametroProcesso.CreateParametroProcesso(System.Int32,System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto ParametroProcesso.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idProcesso">Valore iniziale della proprietà IdProcesso.</param>
+	<param name="nome">Valore iniziale della proprietà Nome.</param>
+</member><member name="P:ParsecWKF.ParametroProcesso.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ParametroProcesso.IdProcesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ParametroProcesso.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ParametroProcesso.Valore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.ParametroProcesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.PraticheCollegate.CreatePraticheCollegate(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto PraticheCollegate.
+ </summary>
+	<param name="prtIdPratica">Valore iniziale della proprietà prtIdPratica.</param>
+	<param name="prtIdPraticaCollegata">Valore iniziale della proprietà prtIdPraticaCollegata.</param>
+</member><member name="P:ParsecWKF.PraticheCollegate.prtIdPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheCollegate.prtIdPraticaCollegata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.PraticheCollegate">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.PraticheCollegateSuap.CreatePraticheCollegateSuap(System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto PraticheCollegateSuap.
+ </summary>
+	<param name="prtIdPratica">Valore iniziale della proprietà prtIdPratica.</param>
+	<param name="prtIdPraticaCollegata">Valore iniziale della proprietà prtIdPraticaCollegata.</param>
+</member><member name="P:ParsecWKF.PraticheCollegateSuap.prtIdPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheCollegateSuap.prtIdPraticaCollegata">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.PraticheCollegateSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.PraticheEdilizie.CreatePraticheEdilizie(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto PraticheEdilizie.
+ </summary>
+	<param name="prtId">Valore iniziale della proprietà prtId.</param>
+	<param name="prtIdTipoPratica">Valore iniziale della proprietà prtIdTipoPratica.</param>
+	<param name="prtAnnoPratica">Valore iniziale della proprietà prtAnnoPratica.</param>
+	<param name="prtNumPratica">Valore iniziale della proprietà prtNumPratica.</param>
+	<param name="stpId">Valore iniziale della proprietà stpId.</param>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIdTipoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtAnnoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataDomanda">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtUTC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataProtUTC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIdResponsabileProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataNominaResp">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataFirmaDirigente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIdFirmaDirigente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNote">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataScadenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataInizLavori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataFineLavori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtImpBaseBucalossi">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOneriPrimari">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOneriSecondari">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtCostoCostruzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataOneri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumAscensori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumScaleServizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumPianiSup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtAlloggiCustode">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumPiscine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtPercentualeInteressiMora">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtInteressiMora">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.urbId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumeroTipologiaPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIdPianoAttuativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataParere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtRichiestaIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRichiestaIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtRichiestaPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRichiestaPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtRichiestaRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRichiestaRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.stpId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.modId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtLocalizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtTotaleOneri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtTotaleOneriCosto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtAnnoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.dusId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNote2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOblazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtArrivoIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataArrivoIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtArrivoPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataArrivoPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtArrivoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataArrivoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtProtocolloRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtTempoRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtProtocolloProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtTempoProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataUltimazioneConProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDirittiSegreteria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDirittiSegreteriaPagati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumRicevuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtVcyn">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRicevuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumCivico">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumeroRegPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataInizioPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataFinePubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtGiorniPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtPubblicato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProvvedimentoRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataProvvedimentoRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtPianoCasa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOneriVersati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtOneriDaVersare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtImportoManutenzioneStraordinaria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtMonetizzazioneStandardParcheggio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtMonetizzazioneStandardVerde">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDirittiAutorizzazionePaesaggistica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataFirmaResponsabileSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumRichiestaRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRichiestaRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRitiroPermesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNominativoRitiroPermesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumProtocolloPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataProtocolloPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIntegrazioneIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtNumRicevutaAutP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtVcyAutp">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDataRicevutaAutP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtDirittiAutPaesPagati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.idZonaOmogenea">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtIntegrazioneRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtRichiedenti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtProgettisti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtImprese">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtVolturandi">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheEdilizie.prtStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.PraticheEdilizie">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.PraticheSuap.CreatePraticheSuap(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto PraticheSuap.
+ </summary>
+	<param name="prtId">Valore iniziale della proprietà prtId.</param>
+	<param name="prtAnnoPratica">Valore iniziale della proprietà prtAnnoPratica.</param>
+	<param name="prtNumPratica">Valore iniziale della proprietà prtNumPratica.</param>
+</member><member name="P:ParsecWKF.PraticheSuap.prtId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIdTipoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAnnoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataDomanda">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtUTC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataProtUTC">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIdResponsabileProcedimento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataNominaResp">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataFirmaDirigente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIdFirmaDirigente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNote">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataScadenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataInizLavori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataFineLavori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtImpBaseBucalossi">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOneriPrimari">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOneriSecondari">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtCostoCostruzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataOneri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumAscensori">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumScaleServizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumPianiSup">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAlloggiCustode">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumPiscine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtPercentualeInteressiMora">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtInteressiMora">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.urbId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumeroTipologiaPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIdPianoAttuativo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataParere">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtRichiestaIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRichiestaIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtRichiestaPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRichiestaPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtRichiestaRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRichiestaRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.stpId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.modId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtLocalizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtTotaleOneri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtTotaleOneriCosto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAnnoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.dusId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNote2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOblazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtArrivoIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataArrivoIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtArrivoPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataArrivoPareri">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtArrivoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataArrivoRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtProtocolloRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtTempoRichiestaProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtProtocolloProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtTempoProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataUltimazioneConProroga">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDirittiSegreteria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDirittiSegreteriaPagati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumRicevuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtVcyn">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRicevuta">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumCivico">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumeroRegPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataInizioPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataFinePubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtGiorniPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtPubblicato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProvvedimentoRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataProvvedimentoRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtPianoCasa">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOneriVersati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtOneriDaVersare">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtImportoManutenzioneStraordinaria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMonetizzazioneStandardParcheggio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMonetizzazioneStandardVerde">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDirittiAutorizzazionePaesaggistica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataFirmaResponsabileSettore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumRichiestaRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRichiestaRateizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRitiroPermesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNominativoRitiroPermesso">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumProtocolloPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataProtocolloPubblicazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIntegrazioneIstruttoria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumRicevutaAutP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtVcyAutp">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRicevutaAutP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDirittiAutPaesPagati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumIscrImprese">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtCCIAA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumIscrizioneREA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtCCIAAREA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataIscrizioneREA">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtSuperficieVendita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataInizioAttivita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtSuperficieComplessiva">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.idZonaOmogenea">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtIntegrazioneRilascio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtRichiedenti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtProgettisti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtImprese">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtVolturandi">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAlimentareMisto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMqAlimentareMisto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNonAlimentareBeniPersona">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMqNonAlimentareBeniPersona">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNonAlimentareAltriBeni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMqNonAlimentareAltriBeni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNonAlimentareBeniBassoImpatto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMqNonAlimentareBeniBassoImpatto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtGeneriMonopolio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtFarmaci">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtCarburanti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtMqTabelleSpeciali">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtPermamente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtStagionale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtStagionaleDal">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtStagionaleAl">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAltriDirittiSegreteria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtNumRicevutaAltriDiritti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtVcyAltriDiritti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtDataRicevutaAltriDiritti">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.PraticheSuap.prtAltriDirittiPagati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.PraticheSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.ProtocolloModelloWkf.CreateProtocolloModelloWkf(System.Int16,System.String)">
+	<summary>
+ Crea un nuovo oggetto ProtocolloModelloWkf.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecWKF.ProtocolloModelloWkf.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ProtocolloModelloWkf.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.ProtocolloModelloWkf">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.ReferenteEsterno.CreateReferenteEsterno(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto ReferenteEsterno.
+ </summary>
+	<param name="idRegistrazione">Valore iniziale della proprietà IdRegistrazione.</param>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="perConoscenza">Valore iniziale della proprietà PerConoscenza.</param>
+</member><member name="P:ParsecWKF.ReferenteEsterno.IdRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.PerConoscenza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.UtenteUsername">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.DataOraRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.ReferenteEsterno.LogSPID">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.ReferenteEsterno">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Registrazione.CreateRegistrazione(System.Int32,System.Boolean,System.Boolean,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Registrazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="modificato">Valore iniziale della proprietà Modificato.</param>
+	<param name="annullato">Valore iniziale della proprietà Annullato.</param>
+	<param name="tipoRegistrazione">Valore iniziale della proprietà TipoRegistrazione.</param>
+</member><member name="P:ParsecWKF.Registrazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.IdTipoDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.Modificato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.Annullato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.NumeroProtocollo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.DataImmissione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.TipoRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.Oggetto">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.Riservato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.NumeroAllegati">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.TipologiaAllegatoPrimario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.ReferentiInterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Registrazione.ReferentiEsterni">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Registrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Ruolo.CreateRuolo(System.Int64)">
+	<summary>
+ Crea un nuovo oggetto Ruolo.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecWKF.Ruolo.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Ruolo.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Ruolo.Tipologia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Ruolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.RuoloRelUtente.CreateRuoloRelUtente(System.Int64,System.Int64)">
+	<summary>
+ Crea un nuovo oggetto RuoloRelUtente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idRuolo">Valore iniziale della proprietà IdRuolo.</param>
+</member><member name="P:ParsecWKF.RuoloRelUtente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.RuoloRelUtente.IdRuolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.RuoloRelUtente.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.RuoloRelUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Segnalazione.CreateSegnalazione(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto Segnalazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="guidSegnalazione">Valore iniziale della proprietà GuidSegnalazione.</param>
+</member><member name="P:ParsecWKF.Segnalazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Segnalazione.GuidSegnalazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Segnalazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Stato.CreateStato(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto Stato.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecWKF.Stato.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Stato.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Stato.Visibilita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Stato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Struttura.CreateStruttura(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Struttura.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecWKF.Struttura.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.IdPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.IdGerarchia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Qualifica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Indirizzo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Cap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Localita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Provincia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Telefono">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Fax">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.Responsabile">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.LogStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.LogUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.LogDataRegistrazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.LogSPID">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Struttura.IdGruppo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Struttura">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.StrutturaEsterna.CreateStrutturaEsterna(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto StrutturaEsterna.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="denominazione">Valore iniziale della proprietà Denominazione.</param>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Codice">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Denominazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Comune">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Email">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Indirizzo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.CAP">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.StrutturaEsterna.Provincia">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.StrutturaEsterna">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Task.CreateTask(System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto Task.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idIstanza">Valore iniziale della proprietà IdIstanza.</param>
+	<param name="nome">Valore iniziale della proprietà Nome.</param>
+	<param name="mittente">Valore iniziale della proprietà Mittente.</param>
+	<param name="destinatario">Valore iniziale della proprietà Destinatario.</param>
+	<param name="dataInizio">Valore iniziale della proprietà DataInizio.</param>
+	<param name="dataFine">Valore iniziale della proprietà DataFine.</param>
+	<param name="cancellato">Valore iniziale della proprietà Cancellato.</param>
+	<param name="idStato">Valore iniziale della proprietà IdStato.</param>
+</member><member name="P:ParsecWKF.Task.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.IdIstanza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.TaskPadre">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Corrente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Successivo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Mittente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Destinatario">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.DataInizio">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.DataFine">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.DataEsecuzione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Cancellato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.UtenteCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.DataCancellazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.IdStato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Note">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Operazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.Notificato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Task.IdUtenteOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Task">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.TipologiaContatore.CreateTipologiaContatore(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto TipologiaContatore.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+</member><member name="P:ParsecWKF.TipologiaContatore.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaContatore.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.TipologiaContatore">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.TipologiaRegistro.CreateTipologiaRegistro(System.Int32,System.String)">
+	<summary>
+ Crea un nuovo oggetto TipologiaRegistro.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+</member><member name="P:ParsecWKF.TipologiaRegistro.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.IdTipologiaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.Disattivato">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.IdTipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.Ordinale">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipologiaRegistro.VisibileInIter">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.TipologiaRegistro">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.TipoPratica.CreateTipoPratica(System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Crea un nuovo oggetto TipoPratica.
+ </summary>
+	<param name="tprId">Valore iniziale della proprietà tprId.</param>
+	<param name="tprCollegamentoConAltrePratiche">Valore iniziale della proprietà tprCollegamentoConAltrePratiche.</param>
+	<param name="tprNumerazione">Valore iniziale della proprietà tprNumerazione.</param>
+	<param name="tprEsportazioneAgenziaEntrate">Valore iniziale della proprietà tprEsportazioneAgenziaEntrate.</param>
+</member><member name="P:ParsecWKF.TipoPratica.tprId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprNome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprCollegamentoConAltrePratiche">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprNumerazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprDirittiSegreteria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprEsportazioneAgenziaEntrate">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPratica.tprEsportazioneAgenziaEntrate2">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.TipoPratica">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.TipoPraticaSuap.CreateTipoPraticaSuap(System.Int32)">
+	<summary>
+ Crea un nuovo oggetto TipoPraticaSuap.
+ </summary>
+	<param name="tprId">Valore iniziale della proprietà tprId.</param>
+</member><member name="P:ParsecWKF.TipoPraticaSuap.tprId">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPraticaSuap.tprNome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPraticaSuap.tprCollegamentoConAltrePratiche">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPraticaSuap.tprNumerazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.TipoPraticaSuap.tprDirittiSegreteria">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.TipoPraticaSuap">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Utente.CreateUtente(System.Int32,System.String,System.String)">
+	<summary>
+ Crea un nuovo oggetto Utente.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="username">Valore iniziale della proprietà Username.</param>
+	<param name="cognome">Valore iniziale della proprietà Cognome.</param>
+</member><member name="P:ParsecWKF.Utente.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.Username">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.Cognome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.Nome">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.SuperUser">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.LogTipoOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Utente.Titolo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Utente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.VisibilitaDocumento.CreateVisibilitaDocumento(System.Int64,System.Int32,System.Int16,System.Int32,System.Int32,System.Boolean,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Crea un nuovo oggetto VisibilitaDocumento.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idDocumento">Valore iniziale della proprietà IdDocumento.</param>
+	<param name="idModulo">Valore iniziale della proprietà IdModulo.</param>
+	<param name="idEntita">Valore iniziale della proprietà IdEntita.</param>
+	<param name="tipoEntita">Valore iniziale della proprietà TipoEntita.</param>
+	<param name="abilitaCancellaEntita">Valore iniziale della proprietà AbilitaCancellaEntita.</param>
+	<param name="descrizione">Valore iniziale della proprietà Descrizione.</param>
+	<param name="logDataOperazione">Valore iniziale della proprietà LogDataOperazione.</param>
+	<param name="logIdUtente">Valore iniziale della proprietà LogIdUtente.</param>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.IdDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.IdModulo">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.IdEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.TipoEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.AbilitaCancellaEntita">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.Descrizione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.LogDataOperazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.VisibilitaDocumento.LogIdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.VisibilitaDocumento">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="M:ParsecWKF.Visualizzazione.CreateVisualizzazione(System.Int64,System.Int64,System.Int64,System.Int32,System.DateTime,System.String)">
+	<summary>
+ Crea un nuovo oggetto Visualizzazione.
+ </summary>
+	<param name="id">Valore iniziale della proprietà Id.</param>
+	<param name="idIstanza">Valore iniziale della proprietà IdIstanza.</param>
+	<param name="idDoc">Valore iniziale della proprietà IdDoc.</param>
+	<param name="idUtente">Valore iniziale della proprietà IdUtente.</param>
+	<param name="data">Valore iniziale della proprietà Data.</param>
+	<param name="operazione">Valore iniziale della proprietà Operazione.</param>
+</member><member name="P:ParsecWKF.Visualizzazione.Id">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Visualizzazione.IdIstanza">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Visualizzazione.IdDoc">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Visualizzazione.IdUtente">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Visualizzazione.Data">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="P:ParsecWKF.Visualizzazione.Operazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member><member name="T:ParsecWKF.Visualizzazione">
+	<summary>
+ Nessuna documentazione sui metadati disponibile.
+ </summary>
+</member>
+</members>
+</doc>
